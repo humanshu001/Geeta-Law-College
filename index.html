@@ -34,10 +34,10 @@
     <header class="header2">
         <nav class="nav2">
             <ul>
-                <li class="dropdown"><a href="#">Our Faculty</a>
+                <li class="dropdown"><a href="#">Our Faculty <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li class="sub-dropdown"><a href="#">Our Promptors</a>
-                            <ul class="sub-dropdown-content">
+                        <li class="sub-dropdown"><a href="#">Our Promptors <i class="arrow right"></i></a>
+                            <ul class="sub-dropdown-content" id="promptors-content">
                                 <li><a href="#">Our Chairman</a></li>
                                 <li><a href="#">Our Vice Chairman</a></li>
                             </ul>
@@ -50,7 +50,7 @@
                         <li><a href="#">Faculty</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Courses</a>
+                <li class="dropdown"><a href="#">Courses <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">BA. LL.B (Hons.) 5 Years</a></li>
                         <li><a href="#">BBA. LL.B (Hons.) 5 Years</a></li>
@@ -58,27 +58,48 @@
                         <li><a href="#">LL.M (2 Years)</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Academics</a>
+                <li class="dropdown"><a href="#">Academics <i class="arrow down"></i></a>
 
                     <ul class="dropdown-content">
                         <li><a href="#">Course Structure</a></li>
                         <li><a href="#">Fee Structure</a></li>
                         <li><a href="#">Syllabus</a></li>
-                        <li><a href="#">Study Material</a></li>
+                        <li class="sub-dropdown"><a href="#">Study Material <i class="arrow right"></i></a>
+                            <ul class="sub-dropdown-content" id="study-content">
+                                <li><a href="#">B.A.LL.B 1ST SEMESTER</a></li>
+                                <li><a href="#">B.A.LL.B 2ND SEMESTER</a></li>
+                                <li><a href="#">BBA.LL.B 1ST SEMESTER</a></li>
+                                <li><a href="#">BBA.LL.B 2ND SEMESTER</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Question Papers</a></li>
-                        <li class="sub-dropdown"><a href="#">Club</a>
-                        <ul class="sub-dropdown-content">
+                        <li class="sub-dropdown"><a href="#">Club <i class="arrow right"></i></a>
+                        <ul class="sub-dropdown-content" id="club-content">
                             <li><a href="#">Moot Court Club</a></li>
                             <li><a href="#">Internship & Placement  Club</a></li>
                             <li><a href="#">Social & Welfare Club</a></li>
                         </ul>
                         </li>
-                        <li class><a href="#">Research Centers</a></li>
+                        <li class="sub-dropdown"><a href="#">Research Centers <i class="arrow right"></i></a>
+                        <ul class="sub-dropdown-content" id="research-content">
+                            <li><a href="#">Centre for Criminal Justice Reforms</a></li>
+                            <li><a href="#">Centre For Arbitration and Mediation</a></li>
+                            <li><a href="#">Centre for Legal Aid Services</a></li>
+                            <li><a href="#">Centre for Research and Innovation</a></li>
+                            <li><a href="#">Centre for South Asian Legal Studies</a></li>
+                            <li><a href="#">Centre for Intellectual Property <br>Research and Advanced Studies</a></li>
+                            <li><a href="#">Centre for Social Research</a></li>
+                            <li><a href="#">Centre for Environmental Studies</a></li>
+                            <li><a href="#">Centre for Career Guidance Studies</a></li>
+                            <li><a href="#">Centre for Leadership</a></li>
+                            <li><a href="#">Centre for Forensic Science</a></li>
+                        </ul>
+                        </li>
                         <li><a href="#">List Of Journals</a></li>
                     </ul>
 
                 </li>
-                <li class="dropdown"><a href="#">Campus Life</a>
+                <li class="dropdown"><a href="#">Campus Life <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">Seminars</a></li>
                         <li><a href="#">Moot Courts</a></li>
@@ -89,7 +110,7 @@
                         <li><a href="#">Class Events</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Infrastructure</a>
+                <li class="dropdown"><a href="#">Infrastructure <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">Class Rooms</a></li>
                         <li><a href="#">Library</a></li>
@@ -106,7 +127,7 @@
                         <li><a href="#">WiFi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Achievements</a>
+                <li class="dropdown"><a href="#">Achievements <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">Rankings</a></li>
                         <li><a href="#">Moot Court Winner</a></li>
@@ -116,7 +137,7 @@
                         <li><a href="#">New Beginnings In The Campus</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Our Placement Program</a>
+                <li class="dropdown"><a href="#">Our Placement Program <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">Particum</a></li>
                         <li><a href="#">Centre for Career Guidance</a></li>
@@ -125,7 +146,7 @@
                         <li><a href="#">Internship-Fair</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">ERP</a>
+                <li class="dropdown"><a href="#">ERP <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="#">ERP Login</a></li>
                         <li><a href="#">Student Login</a></li>
@@ -142,6 +163,25 @@
         </nav>
     </header>
 
+    <div class="slideshow">
+
+        <div id="img1" class="imgbox" style="background-image: url('assets/images/slide-image-1.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <h1>Welcome to Geeta Institute of Law</h1>
+        </div>
+        <div id="img2" class="imgbox" style="background-image: url('assets/images/slide-image-2.png'); background-size: cover; background-repeat: no-repeat;">
+            <h1>Winners of 13th National Moot Court Competition</h1>
+        </div>
+        <div id="img3" class="imgbox" style="background-image: url('assets/images/slide-image-3.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <h1>Asia Education Summit Awards 2017 for Excellent Placement in Haryana by Sharmila Tagore</h1>
+        </div>
+        
+        <a class="admission" href="#">Admissions</a>
+    </div>
+
+    ul
+    
+ 
+    
     <svg xmlns="http://www.w3.org/2000/svg" width="164px" height="120px" viewBox="0 0 164 120">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <path
@@ -311,6 +351,7 @@
                 points="132 57.5487256 135 57.5487256 135 55.5487256 132 55.5487256"></polygon>
         </g>
     </svg>
+    </div>
 </body>
 
 </html>

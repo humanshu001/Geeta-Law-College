@@ -7,11 +7,11 @@
     .header1{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         background-color: rgb(0, 0, 75);
-        padding: 10px;
+        padding: 10px 0;
         height: 7em;
-        width: 100vw;
+        width: 100%;
     }
     /* Geeta Law College Logo */
     .logo img{
@@ -26,7 +26,7 @@
     
     /* Search Bar */
     .search{
-        margin-right: 10px;
+        margin-left: 400px;
         display: flex;
     }
     .search img{
@@ -46,7 +46,7 @@
     
     /* First Navigation */
     .nav1{
-        margin-left: 40px;
+        margin-right: 400px;
     }
     .nav1 ul{
         display: flex;
@@ -68,8 +68,10 @@
 /* Second Main Header */
     .header2{
         background-color: #ec5e06;
-
+        width: 100%;
     }
+
+
     /* Second Navigation */
     
     .nav2 > ul{
@@ -90,7 +92,6 @@
     }
 
 
-
     /* Dropdown Menu */
 
     .dropdown-content{
@@ -98,10 +99,13 @@
         background-color: #ec5e06;
         list-style: none;
         position: absolute;
+        z-index: 1000;
         margin-top: 15px;
+        animation: fadeout 0.4s ease-in-out;
     }
-    .dropdown:hover ul{
+    .dropdown:hover .dropdown-content{
         display: block;
+        
     }
     .dropdown-content li a{
         text-decoration: none;
@@ -116,5 +120,168 @@
         border-right: none;
         padding: 10px;
     }
+    
+    @keyframes fadeout{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+        
+    }
+    
+    /* Sub Dropdown Menu */
+    
+    .sub-dropdown-content{
+        display: none;
+        background-color: #ec5e06;
+        list-style: none;
+        position: absolute;
+        animation: fadeout 0.4s ease-in-out;
+    }
+    .sub-dropdown:hover .sub-dropdown-content{
+        display: block;
+        position: absolute;
+        margin-top: -33px;
+        left: 100%;
+    }
+    .sub-dropdown-content:hover{
+        display: block;
+    }
+    #promptors-content{
+        width: 12em;
+    }
+    #club-content{
+        width: 16em;
+    }
+    #research-content{
+        width: 20em;
+    }
+    #study-content{
+        width: 17em;
+    }
 
-   
+
+
+
+/* Arrows for Dropdown*/
+    .arrow {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    } 
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        margin-bottom: 2px;
+    }  
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        margin-bottom: 2px;
+    }  
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        margin-bottom: 2px;
+    } 
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-bottom: 4px;
+    }
+
+
+
+
+/* slide show */
+.imgbox{
+    height: 70%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(0px); /* Add this line */
+}
+.slideshow{
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#img1{
+  position: absolute;
+  /* z-index: 3; */
+  animation: xfade 15s -0s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#img2{
+    position: absolute;
+    /* z-index: 2; */
+    animation: xfade 15s -5s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#img3{
+    position: absolute;
+    /* z-index: 1; */
+    animation: xfade 15s -10s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes xfade{
+    from{
+        background-size: 120%;
+    }
+    to{
+        background-size: 200%;
+    }
+    0% {opacity: 0;display: none;}
+    20% {opacity: 1;display: block;}
+    33% {opacity: 1;display: block;}
+    53% {opacity: 0;display: none;}
+    100% {opacity: 0;}
+}
+
+
+
+/* Admission Button */
+
+.imgbox h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    width: 70%;
+    font-family: elephant;
+}
+.admission{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #00005b;
+    margin-left: 100px;
+    margin-top: 0;
+    z-index: 400;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 150px;
+    position: absolute;
+    top: 80%;
+}
+
+.admission:hover{
+    color: #ec5e06;
+    transition: 0.5s;
+}
