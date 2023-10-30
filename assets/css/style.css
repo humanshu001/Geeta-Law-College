@@ -10,7 +10,7 @@
 .header1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(0, 0, 75);
     padding: 10px 0;
     height: 7em;
@@ -28,36 +28,28 @@
 }
 
 
-/* Search Bar */
-.search {
-    margin-left: 400px;
+/* Header Right Navigation */
+.header-right-nav{
     display: flex;
-    border-bottom: 2px solid #ec5e06;
-}
+    justify-content: space-evenly;
+    align-items: center;
 
-.search img {
-    width: 25px;
 }
-
-.search input {
-    width: 250px;
-    padding: 10px;
-    border: none;
-    background-color: transparent;
+.header-right-nav a{
+    text-decoration: none;
     color: white;
-    font-family: sans-serif;
-    font-size: 17px;
-    margin-bottom: 0;
+}
+#nirf:hover{
+    color: #ec5e06;
+    transition: 0.5s;
 }
 
 /* First Navigation */
-.nav1 {
-    margin-right: 400px;
-}
+
 
 .nav1 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
 }
 
@@ -89,8 +81,8 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    font-size: 20PX;
-    margin: 0 80px;
+    font-size: 15px;
+    /* margin: 0 80px; */
 }
 
 .nav2 ul li a {
@@ -166,19 +158,19 @@
 }
 
 #promptors-content {
-    width: 12em;
+    width: 13em;
 }
 
 #club-content {
-    width: 16em;
+    width: 17em;
 }
 
 #research-content {
-    width: 20em;
+    width: 21em;
 }
 
 #study-content {
-    width: 17em;
+    width: 18em;
 }
 
 
@@ -189,7 +181,7 @@
     border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 2px;
 }
 
 .right {
@@ -235,6 +227,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: space-evenly;
     backdrop-filter: blur(0px);
     /* Add this line */
 }
@@ -306,25 +299,20 @@
     margin-left: 100px;
     margin-bottom: 50px;
     font-weight: 700;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     width: 70%;
     font-family: elephant;
 }
 
 .admission {
-    font-size: 25px;
+    /* font-size: 25px; */
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: #00005b;
-    margin-left: 100px;
-    margin-top: 0;
-    z-index: 400;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 20px;
     border-radius: 5px;
     width: 150px;
-    position: absolute;
-    top: 80%;
+    
 }
 
 .admission:hover {
@@ -438,15 +426,47 @@
 
 .news-events-content {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 100px;
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
+@media screen and (max-width: 1300px) {
+    .news-events-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-content {
+        width: 50%;
+        margin: 0;
+    }
+    .left-content {
+        width: 50%;
+        margin: 50px;
+    }
+    .down-content {
+        width: 100%; 
+        /* margin: 50px; */
+    }
+    .up-content {
+        width: 100%;
+        /* margin: 50px; */
+    }
+    marquee{
+        width: 100%;
+    }
+    .hr3{
+        width: 100%;
+    }
+    
+}
 .right-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
 }
 
@@ -678,6 +698,9 @@ marquee {
 
 
 /* Centres at GIL */
+.section6{
+    width: 100%;
+}
 .centre-heading{
     display: flex;
     justify-content: flex-end;
@@ -699,8 +722,8 @@ marquee {
     flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
 }
 
 .items{
@@ -717,4 +740,18 @@ marquee {
 }
 .items img{
     margin-right: 50px;
+}
+
+@media screen and (max-width:1600px) {
+    .centres{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .items{
+        width: 40%;
+    }
+    
 }
