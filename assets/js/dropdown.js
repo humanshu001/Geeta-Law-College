@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButtonShow = document.getElementById("toggle-show");
     const toggleButtonCross = document.getElementById("toggle-cross");
-    const toggleMenuButtons = document.querySelectorAll(".toggle-menu");
-    const toggleSubMenuButtons = document.querySelectorAll(".toggle-sub-menu");
+    const toggleMenuButtons = document.querySelectorAll(".side-dropdown");
+    const toggleSubMenuButtons = document.querySelectorAll(".side-sub-dropdown");
     const dropdowns = document.querySelectorAll(".side-dropdown-content");
     const subDropdowns = document.querySelectorAll(".side-sub-dropdown-content");
    
@@ -25,13 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     
     toggleSubMenuButtons.forEach((toggleSubMenuButton, index) => {
-        toggleSubMenuButton.addEventListener("click", function() {
+        toggleSubMenuButton.addEventListener("click", function(event) {
+            event.stopPropagation();
             if (subDropdowns[index]) {
                 subDropdowns[index].classList.toggle("hidden");
             }
         });
     });
 });
-
-// Path: assets/js/scroll.js
-

@@ -20,7 +20,7 @@
 /* Geeta Law College Logo */
 .logo img {
     width: 13em;
-    /* margin: auto; */
+    margin-left: -50px;
 }
 .logo{
     width: 1fr;
@@ -48,6 +48,7 @@
 /* First Navigation */
 .nav1{
     width: 1fr;
+    margin-left: 20px;
 }
 
 .nav1 ul {
@@ -90,83 +91,6 @@
     transform: rotate(45deg) ;
 }
 
-@media screen and (max-width:1200px){
-    .nav1{
-        display: none;
-    }
-  
-    .logo img{
-        width: 10em;
-        margin-left: 30px;
-    }
-    #toggle-show{
-        display: block;
-        cursor: pointer;
-        margin-left: 30px;
-        background-color: rgb(0, 0, 75);
-        border: none;
-    }
-    .header2{
-        display: none;
-    }
-    .header1{
-        height: 5em;
-    }
-
-    .sidebar{
-        width: 30%;
-        background-color: #00005b;
-        /* height: 100%; */
-        z-index: 1000;
-        overflow: hidden;
-        position: absolute;
-        right: 0;
-        top: 0;
-        animation: comeleft 0.8s ease-in-out;
-    }
-
-    @keyframes comeleft{
-        from{
-            right: -30%;
-        }
-        to{
-            right: 0;
-        }
-    }
-    #toggle-cross{
-        display: block;
-        cursor: pointer;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        /* margin-right: 30px; */
-    }
-    #toggle-cross:hover .line1, #toggle-cross:hover .line2{
-        background-color: #ec5e06;
-        transition: 0.5s;
-    }
-    #toggle-show:hover .line1, #toggle-show:hover .line2, #toggle-show:hover .line3{
-        background-color: #ec5e06;
-        transition: 0.5s;
-    }
-    .sidebar a{
-        text-decoration: none;
-        color: white;
-    }
-    .sidebar img{
-        width: 50%;
-        margin: 5px 80px;
-    }
-    .sidebar ul{
-        list-style: none;
-        padding: 20px;
-    }
-    .sidebar ul li{
-        padding: 10px 0;
-        border-bottom: 1px solid white;
-    }
-
-}
 /* Second Main Header */
 .header2 {
     background-color: #ec5e06;
@@ -362,11 +286,11 @@
 
 @keyframes xfade {
     from {
-        background-size: 120%;
+        background-size: 170%;
     }
 
     to {
-        background-size: 200%;
+        background-size: 270%;
     }
 
     0% {
@@ -529,35 +453,7 @@
     /* margin: 0 100px; */
 }
 
-@media screen and (max-width: 1300px) {
-    .news-events-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .right-content {
-        width: 50%;
-        margin: 0;
-    }
-    .left-content {
-        width: 50%;
-        margin: 50px;
-    }
-    .down-content {
-        width: 100%; 
-        /* margin: 50px; */
-    }
-    .up-content {
-        width: 100%;
-        /* margin: 50px; */
-    }
-    marquee{
-        width: 100%;
-    }
-    .hr3{
-        width: 100%;
-    }
-    
-}
+
 .right-content {
     display: flex;
     flex-direction: column;
@@ -569,7 +465,7 @@
 marquee {
     font-size: 20px;
     font-weight: 700;
-    color: #6e6e6e;
+    color: #fff;
     word-spacing: 3px;
     margin-bottom: 20px;
     margin: auto;
@@ -577,7 +473,7 @@ marquee {
 
 .hr3 {
     height: 3px;
-    width: 500px;
+    width: 100%;
     background-color: #ec5e06;
     border: none;
 }
@@ -775,8 +671,8 @@ marquee {
         height: 150px;
     }
     100% {
-        width: 225px;
-        height: 225px;
+        width: 200px;
+        height: 200px;
         border-color: transparent;
     }
 }
@@ -786,8 +682,8 @@ marquee {
         height: 150px;
     }
     100% {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         border-color: transparent;
     }
 }
@@ -848,6 +744,185 @@ marquee {
     }
     .items{
         width: 40%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .nav1{
+        display: none;
+    }
+  
+    .logo img{
+        width: 10em;
+        margin-left: 30px;
+    }
+    #toggle-show{
+        display: block;
+        cursor: pointer;
+        margin-left: 30px;
+        background-color: rgb(0, 0, 75);
+        border: none;
+    }
+    .header2{
+        display: none;
+    }
+    .header1{
+        height: 5em;
+    }
+
+    .sidebar{
+        width: 30%;
+        background-color: #00005b;
+        /* height: 100%; */
+        z-index: 1000;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        animation: comeleft 0.8s ease-in-out;
+    }
+
+    @keyframes comeleft{
+        from{
+            opacity: 0;
+            right: -30%;
+        }
+        to{
+            opacity: 1;
+            right: 0;
+        }
+    }
+    #toggle-cross{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        /* margin-right: 30px; */
+    }
+    #toggle-cross:hover .line1, #toggle-cross:hover .line2{
+        background-color: #ec5e06;
+        transition: 0.5s;
+    }
+    #toggle-show:hover .line1, #toggle-show:hover .line2, #toggle-show:hover .line3{
+        background-color: #ec5e06;
+        transition: 0.5s;
+    }
+    .sidebar a{
+        text-decoration: none;
+        color: white;
+    }
+    .sidebar img{
+        width: 50%;
+        margin: 5px 80px;
+    }
+    .sidebar ul{
+        list-style: none;
+        padding: 20px;
+    }
+    .sidebar ul li{
+        padding: 10px 0;
+        border-bottom: 1px solid white;
+    }
+    .side-sub-dropdown-content{
+        animation: comeleft 0.5s ease-in-out;
+    }
+    .side-dropdown-content{
+        animation: comeleft 0.5s ease-in-out;
+    }
+
+}
+@media screen and (max-width:950px){
+    .imgbox h1{
+        font-size: 35px!important;
+        /* width: 100%; */
+    }
+    .imgbox{
+        height: 70%;
+    }
+    .whygil img{
+        width: 60%;
+    }
+    .whygil h1{
+        font-size: 40px;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+    }
+    .triangle{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 25px solid #ec5e06;
+        margin-left: 8px;
+    }
+    .wave{
+        width: 100px;
+        height: 100px;
+    }
+    .wave2{
+        width: 100px;
+        height: 100px;
+    }
+
+    @keyframes wave {
+        0% {
+            width: 100px;
+            height: 100px;
+        }
+        100% {
+            width: 150px;
+            height: 150px;
+            border-color: transparent;
+        }
+    }
+    @keyframes wave2 {
+        0% {
+            width: 100px;
+            height: 100px;
+        }
+        100% {
+            width: 220px;
+            height: 220px;
+            border-color: transparent;
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .news-events-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-content {
+        width: 50%;
+        margin: 0;
+    }
+    .left-content {
+        width: 50%;
+        margin: 50px;
+    }
+    .down-content {
+        width: 100%; 
+        /* margin: 50px; */
+    }
+    .up-content {
+        width: 100%;
+        /* margin: 50px; */
+    }
+    marquee{
+        width: 100%;
+    }
+    .hr3{
+        width: 100%;
     }
     
 }
