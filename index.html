@@ -7,9 +7,7 @@
     <title>Geeta Law College</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/dropdown.js"></script>
-    <style>
-
-    </style>
+    <link rel="preload" href="Elephant-Regular.woff2" as="font" type="font/woff2" crossorigin>
 </head>
 
 <body>
@@ -28,23 +26,26 @@
         <div class="header-right-nav">
             <a class="admission" href="#">ADMISSION</a>
             <a id="nirf" href="assets/files/NIRF-2021-SUBMITTEDGEETA-INSTITUTE-OF-LAW20210209-.pdf">NIRF</a>
-            <button id="toggle-show">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
+            <div class="menu">
+                <button id="toggle-show">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </button>
+            </div>
         </div>
     </header>
     <aside class="sidebar hidden">
-        <img src="assets/images/logo-gil.png" alt="">
         <div id="toggle-cross">
             <div class="line1"></div>
             <div class="line2"></div>
         </div>
         <ul>
-            <li class="side-dropdown"><a href="#" onclick="return false">Our Faculty <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Our Faculty <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Our Promptors <i class="arrow down toggle-sub-menu"></i></a>
+                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Our Promptors <i
+                                class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content  hidden">
                             <li><a href="#">Our Chairman</a></li>
                             <li><a href="#">Our Vice Chairman</a></li>
@@ -58,7 +59,8 @@
                     <li><a href="#">Faculty</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Courses <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Courses <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">BA. LL.B (Hons.) 5 Years</a></li>
                     <li><a href="#">BBA. LL.B (Hons.) 5 Years</a></li>
@@ -66,13 +68,15 @@
                     <li><a href="#">LL.M (2 Years)</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Academics <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Academics <i
+                        class="arrow down toggle-menu"></i></a>
 
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">Course Structure</a></li>
                     <li><a href="#">Fee Structure</a></li>
                     <li><a href="#">Syllabus</a></li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Study Material <i class="arrow down toggle-sub-menu"></i></a>
+                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Study Material <i
+                                class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="study-content">
                             <li><a href="#">B.A.LL.B 1ST SEMESTER</a></li>
                             <li><a href="#">B.A.LL.B 2ND SEMESTER</a></li>
@@ -81,14 +85,16 @@
                         </ul>
                     </li>
                     <li><a href="#">Question Papers</a></li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Club <i class="arrow down toggle-sub-menu"></i></a>
+                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Club <i
+                                class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="club-content">
                             <li><a href="#">Moot Court Club</a></li>
                             <li><a href="#">Internship & Placement Club</a></li>
                             <li><a href="#">Social & Welfare Club</a></li>
                         </ul>
                     </li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Research Centers <i class="arrow down toggle-sub-menu"></i></a>
+                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Research Centers <i
+                                class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="research-content">
                             <li><a href="#">Centre for Criminal Justice Reforms</a></li>
                             <li><a href="#">Centre For Arbitration and Mediation</a></li>
@@ -108,7 +114,8 @@
                 </ul>
 
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">Seminars</a></li>
                     <li><a href="#">Moot Courts</a></li>
@@ -119,7 +126,8 @@
                     <li><a href="#">Class Events</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Infrastructure <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Infrastructure <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">Class Rooms</a></li>
                     <li><a href="#">Library</a></li>
@@ -136,7 +144,8 @@
                     <li><a href="#">WiFi</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Achievements <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Achievements <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">Rankings</a></li>
                     <li><a href="#">Moot Court Winner</a></li>
@@ -146,7 +155,8 @@
                     <li><a href="#">New Beginnings In The Campus</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Our Placement Program <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Our Placement Program <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="#">Particum</a></li>
                     <li><a href="#">Centre for Career Guidance</a></li>
@@ -163,7 +173,7 @@
                     <li><a href="#">Faculty Login</a></li>
                 </ul>
             </li>
-        </ul>    
+        </ul>
     </aside>
     <header class="header2">
         <nav class="nav2">
@@ -289,7 +299,7 @@
                         <li><a href="#">Faculty Login</a></li>
                     </ul>
                 </li>
-                
+
             </ul>
         </nav>
     </header>
@@ -360,7 +370,7 @@
             <div class="video">
                 <h1>Have a Campus Tour of Geeta Institute of Law</h1>
                 <p>Top Law College of Delhi NCR, Haryana</p>
-                
+
             </div>
             <div class="playbutton">
                 <a href="assets/video/GIL_Campus_Tour_video.mp4">
@@ -379,7 +389,7 @@
         <div class="news-events">
             <div class="left-part">
                 <hr class="hr1">
-                <h1>News & Events</h1>
+                <h1>&nbsp;News & Events&nbsp;</h1>
                 <hr class="hr2">
             </div>
             <!-- <div class="right-part">
@@ -671,15 +681,15 @@
     <section class="section6">
         <div class="centre-heading">
             <hr class="hr2">
-        <h1>Centres at GIL</h1>
-        <hr class="hr1">
+            <h1>&nbsp;Centres at GIL&nbsp;</h1>
+            <hr class="hr1">
         </div>
         <div class="centres">
             <div class="items">
                 <img src="assets/images/hat.png" alt="">Centre for Arbitration & Mediation
             </div>
             <div class="items">
-                <img src="assets/images/hat.png" alt=""> 
+                <img src="assets/images/hat.png" alt="">
 
                 Centre for Legal Aid Services
             </div>
@@ -705,7 +715,7 @@
                 <img src="assets/images/hat.png" alt="">Centre for Environmental Studies
             </div>
             <div class="items">
-                <img src="assets/images/hat.png" alt="">Centre for Carrer Guidance
+                <img src="assets/images/hat.png" alt="">Centre for Career Guidance
             </div>
             <div class="items">
                 <img src="assets/images/hat.png" alt="">
@@ -714,6 +724,36 @@
             <div class="items">
                 <img src="assets/images/hat.png" alt="">Centre for Forensic Sceince
             </div>
+        </div>
+    </section>
+    <section class="section7">
+        <div class="praises">
+
+            <div class="praises-title">
+                <hr class="hr1">
+                <h1>&nbsp;Praises & Commendations&nbsp;</h1>
+                <hr class="hr2">
+
+            </div>
+
+            <div class="praise">
+
+                <div class="praise-image">
+                    <img src="https://www.geetalawcollege.in/wp-content/uploads/2017/07/paramjeet.jpg" alt="" class="img1">
+                </div>
+
+                <div class="praise-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus, deleniti et tempora
+                    voluptatibus mollitia corrupti provident odit nisi rem doloribus numquam perspiciatis eius corporis
+                    animi distinctio voluptatem non reprehenderit. Exercitationem iste qui earum omnis aperiam amet facilis.
+                    Voluptas numquam eligendi rem, aut hic, dolores blanditiis omnis quibusdam vel laudantium perspiciatis
+                    laborum atque praesentium commodi minus perferendis tempora placeat delectus quis inventore aperiam! Cum
+                    possimus tempore ea quos doloribus deleniti dolores corporis quae tempora nisi labore quo aperiam ut id
+                    suscipit sint, dolore eum animi pariatur minima doloremque impedit adipisci hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ratione officiis libero deleniti vero inventore labore dolorem a dolores laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa qui consequuntur minus numquam perferendis quidem, saepe laborum architecto modi ab maiores totam velit soluta cumque labore at quaerat nesciunt?
+                </div>
+
+            </div>
+
         </div>
     </section>
 </body>

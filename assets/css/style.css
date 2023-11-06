@@ -4,6 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@font-face {
+    font-family: "Elephant";
+    src: url("../files/elephant/Elephant-Regular.woff2");
+    src: url("../files/elephant/Elephant-Regular.woff") format("woff"),
+    url("../files/elephant/Elephant\ Regular.ttf") format("truetype")
+    }
+
 
 
 /* First Main Header */
@@ -319,13 +326,14 @@
 /* Admission Button */
 
 .imgbox h1 {
-    font-size: 55px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
-    margin-left: 100px;
-    margin-bottom: 50px;
+    margin-left: 50px;
     font-weight: 400;
     width: 70%;
-    font-family: elephant;
+    font-family: 'Elephant';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .admission {
@@ -384,7 +392,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 100px;
 }
 
 .whygil-box h5 {
@@ -606,7 +613,7 @@ marquee {
     color: white;
     font-weight: 700;
     margin-bottom: 50px;
-    font-family: elephant;
+    font-family: elephant!important;
 }
 .video p{
     font-size: 30px;
@@ -734,6 +741,52 @@ marquee {
     margin-right: 50px;
 }
 
+
+/* Praises & Commendations */
+
+
+.praises{
+    width: 100%;
+    margin-top: 50px;
+    /* display: flex; */
+}
+
+.praises-title{
+    display: flex;
+}
+
+.praise{
+    background-color: #00005b;
+    color: white;
+    margin: 30px;
+    display: flex;
+}
+
+.praise-image img{
+    border-radius: 200px;
+    width: 150px;
+    padding: 50px;
+}
+
+.praise-content{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.praises h1{
+    font-size: 2em;
+    color: #ec5e06;
+}
+
+.praises .hr1{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.praises .hr2{
+    margin-top: 15px;
+}
+
 @media screen and (max-width:1600px) {
     .centres{
         width: 100%;
@@ -748,13 +801,35 @@ marquee {
     
 }
 
-
-
-
-
-
-
-
+@media screen and (max-width: 1300px) {
+    .news-events-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-content {
+        width: 50%;
+        margin: 0;
+    }
+    .left-content {
+        width: 50%;
+        margin: 50px;
+    }
+    .down-content {
+        width: 100%; 
+        /* margin: 50px; */
+    }
+    .up-content {
+        width: 100%;
+        /* margin: 50px; */
+    }
+    marquee{
+        width: 100%;
+    }
+    .hr3{
+        width: 100%;
+    }
+    
+}
 
 @media screen and (max-width:1200px){
     .nav1{
@@ -839,11 +914,16 @@ marquee {
     .side-dropdown-content{
         animation: comeleft 0.5s ease-in-out;
     }
+    .video h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
 
 }
+
 @media screen and (max-width:950px){
     .imgbox h1{
-        font-size: 35px!important;
+        font-size: 35px
         /* width: 100%; */
     }
     .imgbox{
@@ -897,32 +977,316 @@ marquee {
         }
     }
 }
-@media screen and (max-width: 1300px) {
-    .news-events-content {
+
+@media screen and (max-width: 768px){
+
+    .slideshow {
+        width:100%;
+    }
+
+    .imgbox h1{
+        font-size: 30px;
+    }
+
+    .whygil-box{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item{
+        margin: 20px 0;
+    }
+
+    .whygil-box h5{
+        font-size: 18px;
+    }
+
+    .whygil h1{
+        font-size: 40px;
+    }
+
+    .video h1{
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .video p{
+        font-size: 20px;
+    }
+}
+
+/* Default styles */
+
+/* Media query for devices with width from 300px to 491px */
+@media screen and (min-width: 300px) and (max-width: 491px){
+
+    /* .line1{
+        width: 20px;
+    } */
+
+    .header1{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+        /* margin-right: 20px; */
+    }
+    button#toggle-show{
+        width: 100%;
+    }
+
+}
+
+/* Media query for devices with width from 492px to 767px */
+@media screen and (min-width: 492px) and (max-width: 767px){
+
+    .slideshow {
+        width:100%;
+    }
+
+    .imgbox h1{
+        font-size: 30px;
+    }
+
+    .whygil-box{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .item{
+        margin: 20px 0;
+    }
+
+    .whygil-box h5{
+        font-size: 18px;
+    }
+
+    .whygil h1{
+        font-size: 40px;
+    }
+
+    .video h1{
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .video p{
+        font-size: 20px;
+    }
+}
+
+/* Media query for devices with width from 768px to 949px */
+@media screen and (min-width: 768px) and (max-width: 949px){
+
+    .imgbox h1{
+        font-size: 35px
+        /* width: 100%; */
+    }
+    .imgbox{
+        height: 70%;
+    }
+    .whygil img{
+        width: 60%;
+    }
+    .whygil h1{
+        font-size: 40px;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+    }
+    .triangle{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 25px solid #ec5e06;
+        margin-left: 8px;
+    }
+    .wave{
+        width: 100px;
+        height: 100px;
+    }
+    .wave2{
+        width: 100px;
+        height: 100px;
+    }
+
+    @keyframes wave {
+        0% {
+            width: 100px;
+            height: 100px;
+        }
+        100% {
+            width: 150px;
+            height: 150px;
+            border-color: transparent;
+        }
+    }
+    @keyframes wave2 {
+        0% {
+            width: 100px;
+            height: 100px;
+        }
+        100% {
+            width: 220px;
+            height: 220px;
+            border-color: transparent;
+        }
+    }
+}
+
+/* Media query for devices with width greater than or equal to 950px */
+@media screen and (min-width: 950px){
+
+    /* Add styles for devices with width greater than or equal to 950px here */
+
+    .imgbox{
+        height: 100%;
+    }
+
+    .whygil img{
+        width: 70%;
+    }
+
+    .whygil h1{
+        font-size: 50px;
+    }
+
+    .circle{
+        width: 150px;
+        height: 150px;
+    }
+
+    .triangle{
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 40px solid #ec5e06;
+        margin-left: 15px;
+    }
+
+    .wave{
+        width: 150px;
+        height: 150px;
+    }
+
+    .wave2{
+        width: 220px;
+        height: 220px;
+    }
+
+    @keyframes wave {
+        0% {
+            width: 150px;
+            height: 150px;
+        }
+        100% {
+            width: 200px;
+            height: 200px;
+            border-color: transparent;
+        }
+    }
+
+    @keyframes wave2 {
+        0% {
+            width: 220px;
+            height: 220px;
+        }
+        100% {
+            width: 300px;
+            height: 300px;
+            border-color: transparent;
+        }
+    }
+}
+
+@media only screen and (max-width: 491px) {
+    /* CSS rules for devices with width less than 492px */
+    header,section{
+        width: 100%;
+        overflow: auto;
+    }
+    .sidebar{
+        width: 50%;
+    }
+    .playbutton{
+        height: 700px;
+        align-items: center;
+    }
+    .line1, .line2, .line3{
+        width: 30px;
+    }
+
+    .hr1, .hr2{
+        display: none;
+    }
+
+    .whygil, .recruiters h1{
+        text-align: center;
+    }
+
+    .campus-tour{
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 50px;
+    }
+
+    .news-events{
+        display: inline;
         flex-direction: column;
         align-items: center;
     }
-    .right-content {
-        width: 50%;
-        margin: 0;
+    .news-events h1 {
+        font-size: 30px;
     }
-    .left-content {
-        width: 50%;
-        margin: 50px;
+
+    #toggle-show{
+        margin-left: 0px;
+        overflow: auto;
     }
-    .down-content {
-        width: 100%; 
-        /* margin: 50px; */
+    .whygil{
+        padding: 20px;
+        text-align: center;
     }
-    .up-content {
-        width: 100%;
-        /* margin: 50px; */
+
+    .centre-heading h1{
+        font-size: 30px;
     }
-    marquee{
-        width: 100%;
-    }
-    .hr3{
-        width: 100%;
+
+    .imgbox h1 {
+      font-size: 30px;
     }
     
+    .logo img{
+        width: 7em;
+        margin-left: 10px;
+    }
+
+
+    .admission{
+        /* margin: 0px 0px 0px 100px;
+        width: 280px;
+        font-size: 15px;
+        padding: 5px; */
+        display: none;
+    }
+
+    #nirf{
+        /* width: 125px;
+        font-size: 15px; */
+        display: none;
+    }
+
+    
+    /* Modify the wave2 animation to use transform instead of width and height */
+    /* @keyframes wave2 {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.5);
+        border-color: transparent;
+      }
+    } */
 }
