@@ -8,8 +8,8 @@
     font-family: "Elephant";
     src: url("../files/elephant/Elephant-Regular.woff2");
     src: url("../files/elephant/Elephant-Regular.woff") format("woff"),
-    url("../files/elephant/Elephant\ Regular.ttf") format("truetype")
-    }
+        url("../files/elephant/Elephant\ Regular.ttf") format("truetype")
+}
 
 
 
@@ -29,31 +29,34 @@
     width: 13em;
     margin-left: -50px;
 }
-.logo{
+
+.logo {
     width: 1fr;
 }
 
 
 /* Header Right Navigation */
-.header-right-nav{
+.header-right-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 50px;
     width: 1fr;
 }
-.header-right-nav a{
+
+.header-right-nav a {
     text-decoration: none;
     color: white;
     margin: 0 15px;
 }
-#nirf:hover{
+
+#nirf:hover {
     color: #ec5e06;
     transition: 0.5s;
 }
 
 /* First Navigation */
-.nav1{
+.nav1 {
     width: 1fr;
     margin-left: 20px;
 }
@@ -75,27 +78,35 @@
     color: #ec5e06;
     transition: 0.5s;
 }
-#toggle-show{
+
+#toggle-show {
     display: none;
 }
-.line1, .line2, .line3{
+
+.line1,
+.line2,
+.line3 {
     width: 30px;
     height: 3px;
     background-color: white;
     margin: 5px;
     border-radius: 5px;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
-#toggle-cross{
+
+#toggle-cross {
     display: none;
 }
-#toggle-cross .line1{
+
+#toggle-cross .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
-#toggle-cross .line2{
-    transform: rotate(45deg) ;
+
+#toggle-cross .line2 {
+    transform: rotate(45deg);
 }
 
 /* Second Main Header */
@@ -591,7 +602,7 @@ marquee {
 
 
 /* video section */
-.campus-tour{
+.campus-tour {
     display: flex;
     height: 70vh;
     width: 100%;
@@ -599,28 +610,32 @@ marquee {
     align-items: center;
     background-size: cover;
     background-position: center center;
-    background-image: url("/assets/images/slide-image-1.jpg");	
+    background-image: url("/assets/images/slide-image-1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.video{
+
+.video {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
-.video h1{
+
+.video h1 {
     font-size: 55px;
     color: white;
     font-weight: 700;
     margin-bottom: 50px;
-    font-family: elephant!important;
+    font-family: elephant !important;
 }
-.video p{
+
+.video p {
     font-size: 30px;
     color: white;
     font-weight: 700;
 }
-.circle{
+
+.circle {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -631,7 +646,7 @@ marquee {
     position: relative;
 }
 
-.triangle{
+.triangle {
     width: 0;
     height: 0;
     border-top: 25px solid transparent;
@@ -641,7 +656,7 @@ marquee {
 }
 
 .wave {
-   
+
     width: 150px;
     height: 150px;
     animation: wave 1s linear infinite;
@@ -652,8 +667,9 @@ marquee {
     align-items: center;
 
 }
+
 .wave2 {
-   
+
     width: 150px;
     height: 150px;
     animation: wave2 1s linear infinite;
@@ -665,7 +681,7 @@ marquee {
 
 }
 
-.playbutton{
+.playbutton {
     width: 20%;
     display: flex;
     justify-content: center;
@@ -677,17 +693,20 @@ marquee {
         width: 150px;
         height: 150px;
     }
+
     100% {
         width: 200px;
         height: 200px;
         border-color: transparent;
     }
 }
+
 @keyframes wave2 {
     0% {
         width: 150px;
         height: 150px;
     }
+
     100% {
         width: 270px;
         height: 270px;
@@ -697,24 +716,26 @@ marquee {
 
 
 /* Centres at GIL */
-.section6{
+.section6 {
     width: 100%;
 }
-.centre-heading{
+
+.centre-heading {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 100px;
 }
 
-.centre-heading h1{
+.centre-heading h1 {
     font-size: 50px;
     font-weight: 700;
     color: #ec5e06;
     margin-bottom: 20px;
-    
+
 }
-.centres{
+
+.centres {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -725,80 +746,36 @@ marquee {
     /* margin: auto; */
 }
 
-.items{
+.items {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     width: 23%;
     background-color: #00005b;
     color: white;
-    margin:  20px 50px;
+    margin: 20px;
     padding: 20px;
     font-size: 20px;
 }
-.items img{
-    margin-right: 50px;
-}
 
-
-/* Praises & Commendations */
-
-
-.praises{
-    width: 100%;
-    margin-top: 50px;
-    /* display: flex; */
-}
-
-.praises-title{
-    display: flex;
-}
-
-.praise{
-    background-color: #00005b;
-    color: white;
-    margin: 30px;
-    display: flex;
-}
-
-.praise-image img{
-    border-radius: 200px;
-    width: 150px;
-    padding: 50px;
-}
-
-.praise-content{
-    padding-top: 50px;
-    padding-right: 50px;
-}
-
-.praises h1{
-    font-size: 2em;
-    color: #ec5e06;
-}
-
-.praises .hr1{
-    margin-top: 15px;
-    margin-left: 40px;
-}
-
-.praises .hr2{
-    margin-top: 15px;
+.hat_img img{
+    margin-right: 10em;
 }
 
 @media screen and (max-width:1600px) {
-    .centres{
+    .centres {
         width: 100%;
         display: flex;
         /* flex-direction: column; */
         justify-content: center;
         /* align-items: center; */
     }
-    .items{
+
+    .items {
         width: 40%;
     }
-    
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -806,58 +783,66 @@ marquee {
         flex-direction: column;
         align-items: center;
     }
+
     .right-content {
         width: 50%;
         margin: 0;
     }
+
     .left-content {
         width: 50%;
         margin: 50px;
     }
+
     .down-content {
-        width: 100%; 
+        width: 100%;
         /* margin: 50px; */
     }
+
     .up-content {
         width: 100%;
         /* margin: 50px; */
     }
-    marquee{
+
+    marquee {
         width: 100%;
     }
-    .hr3{
+
+    .hr3 {
         width: 100%;
     }
-    
+
 }
 
-@media screen and (max-width:1200px){
-    .nav1{
+@media screen and (max-width:1200px) {
+    .nav1 {
         display: none;
     }
-  
-    .logo img{
+
+    .logo img {
         width: 10em;
         margin-left: 30px;
     }
-    #toggle-show{
+
+    #toggle-show {
         display: block;
         cursor: pointer;
         margin-left: 30px;
         background-color: rgb(0, 0, 75);
         border: none;
     }
-    .header2{
+
+    .header2 {
         display: none;
     }
-    .header1{
+
+    .header1 {
         height: 5em;
     }
 
-    .sidebar{
+    .sidebar {
         width: 30%;
         background-color: #00005b;
-        /* height: 100%; */
         z-index: 1000;
         overflow: hidden;
         position: absolute;
@@ -866,17 +851,19 @@ marquee {
         animation: comeleft 0.8s ease-in-out;
     }
 
-    @keyframes comeleft{
-        from{
+    @keyframes comeleft {
+        from {
             opacity: 0;
             right: -30%;
         }
-        to{
+
+        to {
             opacity: 1;
             right: 0;
         }
     }
-    #toggle-cross{
+
+    #toggle-cross {
         display: block;
         cursor: pointer;
         position: absolute;
@@ -884,72 +871,91 @@ marquee {
         right: 10px;
         /* margin-right: 30px; */
     }
-    #toggle-cross:hover .line1, #toggle-cross:hover .line2{
+
+    #toggle-cross:hover .line1,
+    #toggle-cross:hover .line2 {
         background-color: #ec5e06;
         transition: 0.5s;
     }
-    #toggle-show:hover .line1, #toggle-show:hover .line2, #toggle-show:hover .line3{
+
+    #toggle-show:hover .line1,
+    #toggle-show:hover .line2,
+    #toggle-show:hover .line3 {
         background-color: #ec5e06;
         transition: 0.5s;
     }
-    .sidebar a{
+
+    .sidebar a {
         text-decoration: none;
         color: white;
     }
-    .sidebar img{
+
+    .sidebar img {
         width: 50%;
         margin: 5px 80px;
     }
-    .sidebar ul{
+
+    .sidebar ul {
         list-style: none;
         padding: 20px;
     }
-    .sidebar ul li{
+
+    .sidebar ul li {
         padding: 10px 0;
         border-bottom: 1px solid white;
     }
-    .side-sub-dropdown-content{
+
+    .side-sub-dropdown-content {
         animation: comeleft 0.5s ease-in-out;
     }
-    .side-dropdown-content{
+
+    .side-dropdown-content {
         animation: comeleft 0.5s ease-in-out;
     }
-    .video h1{
+
+    .video h1 {
         font-size: 40px;
         margin-bottom: 0px;
     }
 
 }
 
-@media screen and (max-width:950px){
-    .imgbox h1{
+@media screen and (max-width:950px) {
+    .imgbox h1 {
         font-size: 35px
-        /* width: 100%; */
+            /* width: 100%; */
     }
-    .imgbox{
+
+    .imgbox {
         height: 70%;
     }
-    .whygil img{
+
+    .whygil img {
         width: 60%;
     }
-    .whygil h1{
+
+    .whygil h1 {
         font-size: 40px;
     }
-    .circle{
+
+    .circle {
         width: 100px;
         height: 100px;
     }
-    .triangle{
+
+    .triangle {
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
         border-left: 25px solid #ec5e06;
         margin-left: 8px;
     }
-    .wave{
+
+    .wave {
         width: 100px;
         height: 100px;
     }
-    .wave2{
+
+    .wave2 {
         width: 100px;
         height: 100px;
     }
@@ -959,17 +965,20 @@ marquee {
             width: 100px;
             height: 100px;
         }
+
         100% {
             width: 150px;
             height: 150px;
             border-color: transparent;
         }
     }
+
     @keyframes wave2 {
         0% {
             width: 100px;
             height: 100px;
         }
+
         100% {
             width: 220px;
             height: 220px;
@@ -978,137 +987,137 @@ marquee {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     .slideshow {
-        width:100%;
+        width: 100%;
     }
 
-    .imgbox h1{
+    .imgbox h1 {
         font-size: 30px;
     }
 
-    .whygil-box{
+    .whygil-box {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .item{
+    .item {
         margin: 20px 0;
     }
 
-    .whygil-box h5{
+    .whygil-box h5 {
         font-size: 18px;
     }
 
-    .whygil h1{
+    .whygil h1 {
         font-size: 40px;
     }
 
-    .video h1{
+    .video h1 {
         font-size: 35px;
         margin-bottom: 0px;
     }
 
-    .video p{
+    .video p {
         font-size: 20px;
     }
 }
 
-/* Default styles */
-
 /* Media query for devices with width from 300px to 491px */
-@media screen and (min-width: 300px) and (max-width: 491px){
+@media screen and (min-width: 300px) and (max-width: 491px) {
 
-    /* .line1{
-        width: 20px;
-    } */
-
-    .header1{
+    .header1 {
         width: 100%;
     }
 
-    .menu{
+    .menu {
         width: 100%;
-        /* margin-right: 20px; */
     }
-    button#toggle-show{
+
+    button#toggle-show {
         width: 100%;
     }
 
 }
 
 /* Media query for devices with width from 492px to 767px */
-@media screen and (min-width: 492px) and (max-width: 767px){
+@media screen and (min-width: 492px) and (max-width: 767px) {
 
     .slideshow {
-        width:100%;
+        width: 100%;
     }
 
-    .imgbox h1{
+    .imgbox h1 {
         font-size: 30px;
     }
 
-    .whygil-box{
+    .whygil-box {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .item{
+    .item {
         margin: 20px 0;
     }
 
-    .whygil-box h5{
+    .whygil-box h5 {
         font-size: 18px;
     }
 
-    .whygil h1{
+    .whygil h1 {
         font-size: 40px;
     }
 
-    .video h1{
+    .video h1 {
         font-size: 35px;
         margin-bottom: 0px;
     }
 
-    .video p{
+    .video p {
         font-size: 20px;
     }
 }
 
 /* Media query for devices with width from 768px to 949px */
-@media screen and (min-width: 768px) and (max-width: 949px){
+@media screen and (min-width: 768px) and (max-width: 949px) {
 
-    .imgbox h1{
+    .imgbox h1 {
         font-size: 35px
-        /* width: 100%; */
     }
-    .imgbox{
+
+    .imgbox {
         height: 70%;
     }
-    .whygil img{
+
+    .whygil img {
         width: 60%;
     }
-    .whygil h1{
+
+    .whygil h1 {
         font-size: 40px;
     }
-    .circle{
+
+    .circle {
         width: 100px;
         height: 100px;
     }
-    .triangle{
+
+    .triangle {
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
         border-left: 25px solid #ec5e06;
         margin-left: 8px;
     }
-    .wave{
+
+    .wave {
         width: 100px;
         height: 100px;
     }
-    .wave2{
+
+    .wave2 {
         width: 100px;
         height: 100px;
     }
@@ -1118,17 +1127,20 @@ marquee {
             width: 100px;
             height: 100px;
         }
+
         100% {
             width: 150px;
             height: 150px;
             border-color: transparent;
         }
     }
+
     @keyframes wave2 {
         0% {
             width: 100px;
             height: 100px;
         }
+
         100% {
             width: 220px;
             height: 220px;
@@ -1138,40 +1150,38 @@ marquee {
 }
 
 /* Media query for devices with width greater than or equal to 950px */
-@media screen and (min-width: 950px){
+@media screen and (min-width: 950px) {
 
-    /* Add styles for devices with width greater than or equal to 950px here */
-
-    .imgbox{
+    .imgbox {
         height: 100%;
     }
 
-    .whygil img{
+    .whygil img {
         width: 70%;
     }
 
-    .whygil h1{
+    .whygil h1 {
         font-size: 50px;
     }
 
-    .circle{
+    .circle {
         width: 150px;
         height: 150px;
     }
 
-    .triangle{
+    .triangle {
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent;
         border-left: 40px solid #ec5e06;
         margin-left: 15px;
     }
 
-    .wave{
+    .wave {
         width: 150px;
         height: 150px;
     }
 
-    .wave2{
+    .wave2 {
         width: 220px;
         height: 220px;
     }
@@ -1181,6 +1191,7 @@ marquee {
             width: 150px;
             height: 150px;
         }
+
         100% {
             width: 200px;
             height: 200px;
@@ -1193,6 +1204,7 @@ marquee {
             width: 220px;
             height: 220px;
         }
+
         100% {
             width: 300px;
             height: 300px;
@@ -1202,91 +1214,254 @@ marquee {
 }
 
 @media only screen and (max-width: 491px) {
+
     /* CSS rules for devices with width less than 492px */
-    header,section{
+    header,
+    section {
         width: 100%;
         overflow: auto;
     }
-    .sidebar{
+
+    .sidebar {
         width: 50%;
     }
-    .playbutton{
+
+    .playbutton {
         height: 700px;
         align-items: center;
     }
-    .line1, .line2, .line3{
+
+    .line1,
+    .line2,
+    .line3 {
         width: 30px;
     }
 
-    .hr1, .hr2{
+    .hr1,
+    .hr2 {
         display: none;
     }
 
-    .whygil, .recruiters h1{
+    .whygil,
+    .recruiters h1 {
         text-align: center;
     }
 
-    .campus-tour{
+    .campus-tour {
         flex-direction: column;
         justify-content: space-around;
         font-size: 50px;
     }
 
-    .news-events{
+    .news-events {
         display: inline;
         flex-direction: column;
         align-items: center;
     }
+
     .news-events h1 {
         font-size: 30px;
     }
 
-    #toggle-show{
+    #toggle-show {
         margin-left: 0px;
         overflow: auto;
     }
-    .whygil{
+
+    .whygil {
         padding: 20px;
         text-align: center;
     }
 
-    .centre-heading h1{
+    .centre-heading h1 {
         font-size: 30px;
     }
 
     .imgbox h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
-    
-    .logo img{
+
+    .logo img {
         width: 7em;
         margin-left: 10px;
     }
 
-
-    .admission{
-        /* margin: 0px 0px 0px 100px;
-        width: 280px;
-        font-size: 15px;
-        padding: 5px; */
+    .admission {
         display: none;
     }
 
-    #nirf{
-        /* width: 125px;
-        font-size: 15px; */
+    #nirf {
         display: none;
     }
+}
 
+.footerhr{
+    height: 20px;
+    background-color: #ec5e06;
+    border: none;
+}
+
+.footercontainer{
+    background-color: #00005b;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footercontainer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footercontainer a:hover{
+    cursor: pointer;
+    color: #ec5e06;
+    transition: 0.5s;
+}
+
+.footercontainer h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#ec5e06;
+}
+
+.underlinehr{
+    height: 3px;
+    width: 100px;
+    background-color: #ec5e06;
+    border: none;
+    margin: 0 auto 10px auto;
+}
+
+.contact{
+    margin-top: 50px;
+}
+
+.address{
+    margin-top: 20px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.phone svg{
+    margin-right: 20px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.email svg{
+    margin-right: 20px;
+}
+
+.website{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.website svg{
+    margin-right: 20px;
+}
+
+.video iframe{
+    width: 25em;
+    height: 15em;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.downloads{
+    text-align: left;
+    margin-right: 30px;
+}
+
+.downloads h3{
+    margin: 10px 0px 20px 0px;
+}
+
+.downloads a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    display: block;
+    font-size: 15px;
+}
+
+.downloads a:hover{
+    cursor: pointer;
+    color: #ec5e06;
+    transition: 0.5s;
+}
+
+.gallery{
+    text-align: right;
+}
+
+.gallery h3{
+    margin: 10px 0px 20px 0px;
+}
+
+.gallery a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    display: block;
+    font-size: 15px;
+}
+
+.gallery a:hover{
+    cursor: pointer;
+    color: #ec5e06;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px){
     
-    /* Modify the wave2 animation to use transform instead of width and height */
-    /* @keyframes wave2 {
-      0% {
-        transform: scale(1);
-      }
-      100% {
-        transform: scale(1.5);
-        border-color: transparent;
-      }
-    } */
+    .footercontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .address{
+        text-align: center;
+    }
+
+    .links{
+        margin-top: 20px;
+    }
+
+    .downloads{
+        margin-right: 50px;
+    }
+
+    .campus_tour, .quick-links h1{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    .video iframe{
+        width: 20em;
+        height: 15em;
+    }
+
 }
