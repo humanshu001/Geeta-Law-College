@@ -751,17 +751,21 @@ marquee {
     flex-direction: row;
     align-items: center;
     /* justify-content: center; */
-    width: 23%;
+    width: 40%;
     background-color: #00005b;
     color: white;
     margin: 20px;
     padding: 20px;
     font-size: 20px;
+    height: 50px;
 }
 
-.hat_img img{
-    margin-right: 10em;
+.hat_img img {
+    margin-right: 5em;
+    margin-left: 0.5em;
 }
+
+
 
 @media screen and (max-width:1600px) {
     .centres {
@@ -772,9 +776,9 @@ marquee {
         /* align-items: center; */
     }
 
-    .items {
+    /* .items {
         width: 40%;
-    }
+    } */
 
 }
 
@@ -1295,13 +1299,13 @@ marquee {
     }
 }
 
-.footerhr{
+.footerhr {
     height: 20px;
     background-color: #ec5e06;
     border: none;
 }
 
-.footercontainer{
+.footercontainer {
     background-color: #00005b;
     color: white;
     padding: 40px;
@@ -1309,26 +1313,26 @@ marquee {
     justify-content: space-evenly;
 }
 
-.footercontainer a{
+.footercontainer a {
     text-decoration: none;
     color: white;
 }
 
-.footercontainer a:hover{
+.footercontainer a:hover {
     cursor: pointer;
     color: #ec5e06;
     transition: 0.5s;
 }
 
-.footercontainer h1{
+.footercontainer h1 {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-    color:#ec5e06;
+    color: #ec5e06;
 }
 
-.underlinehr{
+.underlinehr {
     height: 3px;
     width: 100px;
     background-color: #ec5e06;
@@ -1336,67 +1340,67 @@ marquee {
     margin: 0 auto 10px auto;
 }
 
-.contact{
+.contact {
     margin-top: 50px;
 }
 
-.address{
+.address {
     margin-top: 20px;
 }
 
-.phone{
+.phone {
     display: flex;
     align-items: center;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.phone svg{
+.phone svg {
     margin-right: 20px;
 }
 
-.email{
+.email {
     display: flex;
     align-items: center;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.email svg{
+.email svg {
     margin-right: 20px;
 }
 
-.website{
+.website {
     display: flex;
     align-items: center;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.website svg{
+.website svg {
     margin-right: 20px;
 }
 
-.video iframe{
+.video iframe {
     width: 25em;
     height: 15em;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
 }
 
-.downloads{
+.downloads {
     text-align: left;
     margin-right: 30px;
 }
 
-.downloads h3{
+.downloads h3 {
     margin: 10px 0px 20px 0px;
 }
 
-.downloads a{
+.downloads a {
     text-decoration: none;
     color: white;
     margin: 10px 0;
@@ -1404,21 +1408,21 @@ marquee {
     font-size: 15px;
 }
 
-.downloads a:hover{
+.downloads a:hover {
     cursor: pointer;
     color: #ec5e06;
     transition: 0.5s;
 }
 
-.gallery{
+.gallery {
     text-align: right;
 }
 
-.gallery h3{
+.gallery h3 {
     margin: 10px 0px 20px 0px;
 }
 
-.gallery a{
+.gallery a {
     text-decoration: none;
     color: white;
     margin: 10px 0;
@@ -1426,42 +1430,219 @@ marquee {
     font-size: 15px;
 }
 
-.gallery a:hover{
+.gallery a:hover {
     cursor: pointer;
     color: #ec5e06;
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1024px){
-    
-    .footercontainer{
+@media screen and (max-width: 1024px) {
+
+    .section6 .centre-heading{
+        margin-right: 50px;
+    }
+
+    .footercontainer {
         flex-direction: column;
         align-items: center;
     }
 
-    .address{
+    .address {
         text-align: center;
     }
 
-    .links{
+    .links {
         margin-top: 20px;
     }
 
-    .downloads{
+    .downloads {
         margin-right: 50px;
     }
 
-    .campus_tour, .quick-links h1{
+    .campus_tour,
+    .quick-links h1 {
         margin-top: 40px;
     }
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
-    .video iframe{
+    .video iframe {
         width: 20em;
         height: 15em;
     }
 
 }
+
+@media screen and (max-width:800px) {
+
+    .news-events{
+        justify-content: center;
+    }
+
+    .news-events-content{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .centre-heading{
+        justify-content: center;
+    }
+
+    .centres{
+        margin-top: 30px;
+    }
+
+    .hr1, .hr2{
+        display: none;
+    }
+
+    .items{
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 617px){
+
+    .centres{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items{
+        width: 50%;
+    }
+
+    .whygil h1, .recruiters h1, .left-part h1, .centre-heading h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .whygil{
+        margin-top: 20px;
+    }
+
+    .recruiters-img{
+        margin-top: 20px;
+    }
+
+    .whygil hr{
+        margin-top: 15px;
+    }
+
+    .recruiters hr{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .items{
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1540px){
+
+    .whygil h1{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 2200px){
+
+    .whygil h1{
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1440px){
+
+    .video{
+        padding: 50px;
+    }
+
+    .video h1{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 515px){
+
+    /* *{
+        overflow: auto;
+    } */
+
+    #toggle-cross .line1, #toggle-cross .line2, #toggle-cross .line3{
+        width: 15px;
+    }
+
+    .menu .line1, .menu .line2, .menu .line3{
+        width: 25px;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    #nirf{
+        display: none;
+    }
+
+    .video h1{
+        font-size: 25px;
+    }
+
+    .video p{
+        font-size: 15px;
+    }
+
+    .playbutton{
+        display: none;
+    }
+
+    .up-content{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .down-content{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .items{
+        width: 80%;
+    }
+
+    .hat_img img{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .hat_img    {
+        margin-right: 5em;
+        width: 4em;
+    }
+
+    .video{
+        padding: 20px;
+        width: 85%;
+    }
+
+    .video iframe{
+        width: 100%;
+        height: 30%;
+    }
+
+}
+
