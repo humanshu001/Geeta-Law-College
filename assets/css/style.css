@@ -20,7 +20,7 @@
     justify-content: space-between;
     background-color: rgb(0, 0, 75);
     padding: 10px 0;
-    height: 7em;
+    height: 7em; 
     width: 100%;
 }
 
@@ -111,7 +111,7 @@
 
 /* Second Main Header */
 .header2 {
-    background-color: #ec5e06;
+    background-color: #a62005;
     width: 100%;
 }
 
@@ -373,7 +373,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-bottom: 100px;
 }
 
@@ -995,10 +995,21 @@ marquee {
 
     .slideshow {
         width: 100%;
+        height: 100vh;
     }
-
+    @keyframes xfade {
+        from{
+            background-size: 300%; 
+        }
+        to{
+            background-size: 500%;
+        }
+    }
     .imgbox h1 {
         font-size: 30px;
+    }
+    .imgbox img{
+        height: 100vh;
     }
 
     .whygil-box {
@@ -1092,9 +1103,6 @@ marquee {
         font-size: 35px
     }
 
-    .imgbox {
-        height: 70%;
-    }
 
     .whygil img {
         width: 60%;
@@ -1156,9 +1164,7 @@ marquee {
 /* Media query for devices with width greater than or equal to 950px */
 @media screen and (min-width: 950px) {
 
-    .imgbox {
-        height: 100%;
-    }
+   
 
     .whygil img {
         width: 70%;
@@ -1234,7 +1240,12 @@ marquee {
         height: 700px;
         align-items: center;
     }
-
+    .video{
+        height: 400px;
+    }
+    .video h1{
+        margin-top: 50px;
+    }
     .line1,
     .line2,
     .line3 {
@@ -1606,9 +1617,7 @@ marquee {
         font-size: 15px;
     }
 
-    .playbutton{
-        display: none;
-    }
+    
 
     .up-content{
         width: 200px;
