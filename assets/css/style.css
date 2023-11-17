@@ -10,7 +10,9 @@
     src: url("../files/elephant/Elephant-Regular.woff") format("woff"),
         url("../files/elephant/Elephant\ Regular.ttf") format("truetype")
 }
-
+:root{
+    --orange: #a62005;
+}
 
 
 /* First Main Header */
@@ -51,7 +53,7 @@
 }
 
 #nirf:hover {
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
@@ -75,7 +77,7 @@
 }
 
 .nav1 ul li a:hover {
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
@@ -141,7 +143,7 @@
 
 .dropdown-content {
     display: none;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     list-style: none;
     position: absolute;
     z-index: 1000;
@@ -183,7 +185,7 @@
 
 .sub-dropdown-content {
     display: none;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     list-style: none;
     position: absolute;
     animation: fadeout 0.4s ease-in-out;
@@ -355,7 +357,7 @@
 }
 
 .admission:hover {
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
@@ -380,7 +382,7 @@
 .whygil hr {
     width: 150px;
     height: 6px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     border: none;
     margin-bottom: 10px;
 }
@@ -388,7 +390,7 @@
 .whygil h1 {
     font-size: 50px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
 }
 
 .whygil h4 {
@@ -437,14 +439,14 @@
 .hr1 {
     height: 6px;
     width: 70px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     margin-bottom: 15px;
 }
 
 .hr2 {
     height: 6px;
     width: 140px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     margin-bottom: 15px;
 }
 
@@ -458,7 +460,7 @@
 .news-events h1 {
     font-size: 50px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
     margin-bottom: 20px;
 }
 
@@ -492,7 +494,7 @@ marquee {
 .hr3 {
     height: 3px;
     width: 100%;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     border: none;
 }
 
@@ -507,14 +509,14 @@ marquee {
 .left-content h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
     margin-bottom: 10px;
 }
 
 .up-content h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
     margin-bottom: 10px;
 }
 
@@ -529,7 +531,7 @@ marquee {
 .down-content h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
     margin-bottom: 10px;
 }
 
@@ -550,7 +552,7 @@ marquee {
 .right-part a {
     text-decoration: none;
     color: white;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     font-size: 30px;
     padding: 15px;
     border-radius: 5px;
@@ -570,7 +572,7 @@ marquee {
 .recruiters hr {
     width: 150px;
     height: 6px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     border: none;
     margin-bottom: 10px;
 }
@@ -578,7 +580,7 @@ marquee {
 .recruiters h1 {
     font-size: 50px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
 }
 
 .recruiters {
@@ -651,7 +653,7 @@ marquee {
     height: 0;
     border-top: 25px solid transparent;
     border-bottom: 25px solid transparent;
-    border-left: 45px solid #ec5e06;
+    border-left: 45px solid var(--orange);
     margin-left: 12px;
 }
 
@@ -730,7 +732,7 @@ marquee {
 .centre-heading h1 {
     font-size: 50px;
     font-weight: 700;
-    color: #ec5e06;
+    color: var(--orange);
     margin-bottom: 20px;
 
 }
@@ -878,14 +880,14 @@ marquee {
 
     #toggle-cross:hover .line1,
     #toggle-cross:hover .line2 {
-        background-color: #ec5e06;
+        background-color: var(--orange);
         transition: 0.5s;
     }
 
     #toggle-show:hover .line1,
     #toggle-show:hover .line2,
     #toggle-show:hover .line3 {
-        background-color: #ec5e06;
+        background-color: var(--orange);
         transition: 0.5s;
     }
 
@@ -950,7 +952,7 @@ marquee {
     .triangle {
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-left: 25px solid #ec5e06;
+        border-left: 25px solid var(--orange);
         margin-left: 8px;
     }
 
@@ -1120,7 +1122,7 @@ marquee {
     .triangle {
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-left: 25px solid #ec5e06;
+        border-left: 25px solid var(--orange);
         margin-left: 8px;
     }
 
@@ -1182,7 +1184,7 @@ marquee {
     .triangle {
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent;
-        border-left: 40px solid #ec5e06;
+        border-left: 40px solid var(--orange);
         margin-left: 15px;
     }
 
@@ -1312,7 +1314,7 @@ marquee {
 
 .footerhr {
     height: 20px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     border: none;
 }
 
@@ -1331,7 +1333,7 @@ marquee {
 
 .footercontainer a:hover {
     cursor: pointer;
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
@@ -1340,13 +1342,13 @@ marquee {
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-    color: #ec5e06;
+    color: var(--orange);
 }
 
 .underlinehr {
     height: 3px;
     width: 100px;
-    background-color: #ec5e06;
+    background-color: var(--orange);
     border: none;
     margin: 0 auto 10px auto;
 }
@@ -1421,7 +1423,7 @@ marquee {
 
 .downloads a:hover {
     cursor: pointer;
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
@@ -1443,7 +1445,7 @@ marquee {
 
 .gallery a:hover {
     cursor: pointer;
-    color: #ec5e06;
+    color: var(--orange);
     transition: 0.5s;
 }
 
