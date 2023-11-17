@@ -147,7 +147,7 @@
     list-style: none;
     position: absolute;
     z-index: 1000;
-    margin-top: 15px;
+    margin-top: 10px;
     animation: fadeout 0.4s ease-in-out;
 }
 
@@ -203,18 +203,22 @@
 }
 
 #promptors-content {
+    top: 33px;
     width: 13em;
 }
 
 #club-content {
+    top: 223px;
     width: 17em;
 }
 
 #research-content {
+    top: 261px;
     width: 21em;
 }
 
 #study-content {
+    top: 147px;
     width: 18em;
 }
 
@@ -616,7 +620,9 @@ marquee {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+.section4{
+    overflow: hidden;
+}
 .video {
     display: flex;
     flex-direction: column;
