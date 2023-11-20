@@ -379,7 +379,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -1248,7 +1248,7 @@ marquee {
         height: 700px;
         align-items: center;
     }
-    .video{
+    .campus-tour .video{
         height: 400px;
     }
     .video h1{
@@ -1316,6 +1316,7 @@ marquee {
     #nirf {
         display: none;
     }
+    
 }
 
 .footerhr {
