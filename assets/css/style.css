@@ -1663,3 +1663,116 @@ marquee {
 
 }
 
+
+/* Our Chairman Page */
+
+.chairman-text h2{
+    text-align: right;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.center-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.chairman-text h1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: roboto;
+}
+.section7{
+    width: 70%;
+    background-color: white;
+    margin-top: 50px;
+    margin: auto;
+}
+.faculty-img{
+    width: 150px;
+    margin: auto;
+}
+.chairman{
+    margin: 100px 0;
+}
+.chairman-text{
+    margin: auto;
+    width: 80%;
+}
+.chairman-text p{
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+}
+.orange-line{
+    width: 160px;
+    height: 5px;
+    background-color: var(--orange);
+    margin: 2px 0; 
+    outline: none;
+}
+
+.chairman-text img{
+    margin: 30px 0;
+}
+@media screen and (max-width: 1200px){
+    .section7{
+        width: 100%;
+    }
+    .chairman-text p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    .chairman-text{
+        width: 80%;
+    }
+    .chairman{
+        margin: 50px 0;
+    }
+}
+@media screen and (max-width: 450px){
+
+    .chairman-text{
+        width: 90%;
+    }
+}
+
+/* Our Director Page */
+
+.academic-advisory{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 50px;
+}
+.advisory-profs{
+    display: flex;
+    align-items: center;
+    border: 1px solid #00005b;
+    padding: 20px;
+}
+.advisory-profs img{
+    width: 100px;
+    border: 1px solid var(--orange);
+    padding: 5px;
+}
+.content{
+    margin-left: 20px;
+    font-family: roboto;
+}
+
+@media screen and (max-width: 900px){
+    .academic-advisory{
+        grid-template-columns: 1fr;
+    }
+    .academic-advisory{
+        margin: 20px;
+    }
+    
+}

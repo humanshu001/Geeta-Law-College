@@ -35,12 +35,12 @@
                     <li class="side-sub-dropdown"><a href="#" onclick="return false">Our Promptors <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content  hidden">
-                            <li><a href="#">Our Chairman</a></li>
-                            <li><a href="#">Our Vice Chairman</a></li>
+                            <li><a href="our_chairman.php">Our Chairman</a></li>
+                            <li><a href="our_vicechairman.php">Our Vice Chairman</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Our Principal</a></li>
-                    <li><a href="#">Academic Advisory Board</a></li>
+                    <li><a href="our_principal.php">Our Principal</a></li>
+                    <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
                     <li><a href="#">Industrial Advisory Board</a></li>
                     <li><a href="#">Distinguished Professor</a></li>
                     <li><a href="#">Honorary Professor</a></li>
@@ -171,11 +171,11 @@
                         <li class="sub-dropdown"><a href="#">Our Promptors <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="promptors-content">
                                 <li><a href="our_chairman.php">Our Chairman</a></li>
-                                <li><a href="#">Our Vice Chairman</a></li>
+                                <li><a href="our_vicechairman.php">Our Vice Chairman</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Our Principal</a></li>
-                        <li><a href="#">Academic Advisory Board</a></li>
+                        <li><a href="our_principal.php">Our Principal</a></li>
+                        <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
                         <li><a href="#">Industrial Advisory Board</a></li>
                         <li><a href="#">Distinguished Professor</a></li>
                         <li><a href="#">Honorary Professor</a></li>
