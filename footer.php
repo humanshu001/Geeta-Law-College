@@ -1,3 +1,6 @@
+</body>
+</html>
+
 <footer>
         <hr class="footerhr">
         <div class="footercontainer">

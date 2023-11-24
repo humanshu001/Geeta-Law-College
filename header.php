@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeta Law College</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/dropdown.js"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="preload" href="Elephant-Regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body>
 
 <header class="header1">
         <nav class="nav1">
@@ -41,7 +55,7 @@
                     </li>
                     <li><a href="our_principal.php">Our Principal</a></li>
                     <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
-                    <li><a href="#">Industrial Advisory Board</a></li>
+                    <li><a href="industry_advisory.php">Industrial Advisory Board</a></li>
                     <li><a href="#">Distinguished Professor</a></li>
                     <li><a href="#">Honorary Professor</a></li>
                     <li><a href="#">Faculty</a></li>
@@ -176,7 +190,7 @@
                         </li>
                         <li><a href="our_principal.php">Our Principal</a></li>
                         <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
-                        <li><a href="#">Industrial Advisory Board</a></li>
+                        <li><a href="industry_advisory.php">Industrial Advisory Board</a></li>
                         <li><a href="#">Distinguished Professor</a></li>
                         <li><a href="#">Honorary Professor</a></li>
                         <li><a href="#">Faculty</a></li>

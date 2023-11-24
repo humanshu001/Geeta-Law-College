@@ -1,19 +1,5 @@
 <?php include 'header.php'; ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/dropdown.js"></script>
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="preload" href="Elephant-Regular.woff2" as="font" type="font/woff2" crossorigin>
-</head>
-
-<body>
     <section class="section7">
         <div class="chairman-text">
             <h1>Our Academic Advisory Board</h1>
@@ -184,8 +170,6 @@
             </div>
         </div>
     </section>
-</body>
 
-</html>
 
 <?php include 'footer.php'; ?>
