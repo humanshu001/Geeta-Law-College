@@ -1777,3 +1777,51 @@ marquee {
     }
     
 }
+
+/* Courses Page */
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table th, td{
+    border: 1px solid #6e6e6e;
+    padding: 10px;
+}
+
+.content-title h5{
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.section16 .content ul{
+    font-size: 15px;
+}
+
+.section16 .content{
+    margin-left: 0px;
+}
+
+.ul{
+    margin: 0px;
+    padding: 20px 50px;
+}
+
+.ul ul{
+    list-style-type: square;
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background-color: #6e6e6e;
+    margin: 20px 0;
+}
