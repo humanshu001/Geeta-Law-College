@@ -1777,6 +1777,7 @@ marquee {
     }
     
 }
+<<<<<<< HEAD
 .BBA{
 text-decoration: none;
 }
@@ -1803,3 +1804,20 @@ text-decoration: none;
 .responsive{
     width: 100%;
 }
+=======
+.khus{
+    padding-left:50px;
+    margin-left:30px;
+}
+.video-margin{
+    margin: 8px;
+}
+.textcenter{
+    text-align: center;
+}
+.textcenter1{
+    margin: 0 auto ;
+    margin-top:20px;
+    text-align: center;
+}
+>>>>>>> 5461690c70cf3b64804f58ae87eae1312873fbe6
