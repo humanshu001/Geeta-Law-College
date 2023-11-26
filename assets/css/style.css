@@ -1777,3 +1777,62 @@ marquee {
     }
     
 }
+button{
+    height:50px;
+    width:150px;
+    background-color: orangered;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.orline{
+    width: 1050px;
+    height: 2px;
+    background-color: var(--orange);
+    margin: 3px 0; 
+    outline: none;
+}
+.eventhead{
+    color:darkslategray;
+    text-align: center;
+    
+}
+
+button a{
+ text-decoration: none;
+ color:black;
+ display: block;
+}
+.aboutcentre{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.aboutcentre:hover{
+    color:blue;
+}
+.provide{
+    padding:50px;
+    color: darkslategray;
+    
+}
+.shift{
+    padding-left: 30px;
+    width:100%;
+}
+.eventhe{
+    color:darkslategray;
+}
+.shifted{
+    padding-left: 5px;
+    width:100%;
+}
+.space{
+    padding-left:30px ;
+}
+.abspace{
+    padding-left:30px;
+    width:25%;
+}
