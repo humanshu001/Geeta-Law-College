@@ -1777,3 +1777,29 @@ marquee {
     }
     
 }
+.BBA{
+text-decoration: none;
+}
+.BBA:hover{
+   color: blueviolet;
+}
+.img-mcc{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.img-mcca{
+    margin: 10px;
+}
+.img-mccb{
+    margin: 10px;
+}
+.textalign{
+    text-align: center;
+    margin: 10px;
+}
+.responsive{
+    width: 100%;
+}
