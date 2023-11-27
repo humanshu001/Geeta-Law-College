@@ -1921,6 +1921,7 @@ button{
     border:none;
     border-radius: 5px;
     margin-top: 10px;
+
     
 }
 .orline{
@@ -2064,4 +2065,10 @@ table th, td{
     height: 1px;
     background-color: #6e6e6e;
     margin: 20px 0;
+}
+.campus{
+    height:50px;
+    width:100px;
+    background-color: orangered;
+    color:white;
 }
