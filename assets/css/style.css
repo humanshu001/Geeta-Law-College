@@ -2074,7 +2074,7 @@ table th, td{
 }
 
 
-/* course structure */
+/* moot court room */
 .moot{
     color: brown;
     padding-left: 90px;
@@ -2098,4 +2098,31 @@ table th, td{
 .first{
     padding-left: 90px;
     font-style: oblique;
+}
+/*conference room*/
+.conf{
+    color: brown;
+    padding-left: 90px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-style:oblique;
+}
+
+.orange-line{
+    width: 160px;
+    height: 5px;
+    background-color: var(--orange);
+    margin-left: 90px; 
+    outline: none;
+}
+.room{
+    padding: 50px;
+    margin: 30px;
+    width: 900px;
+    height: 500px;
+}
+.first{
+    padding-left: 90px;
+    font-style: oblique;
+    font-style: calc();
 }
