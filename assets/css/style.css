@@ -2075,3 +2075,27 @@ table th, td{
 
 
 /* course structure */
+.moot{
+    color: brown;
+    padding-left: 90px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-style:oblique;
+}
+.orange-line{
+    width: 160px;
+    height: 5px;
+    background-color: var(--orange);
+    margin-left: 90px; 
+    outline: none;
+}
+.court{
+    padding: 50px;
+    margin: 50px;
+    width: 900px;
+    height: 500px;
+}
+.first{
+    padding-left: 90px;
+    font-style: oblique;
+}
