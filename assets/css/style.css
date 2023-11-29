@@ -2164,7 +2164,7 @@ td {
     }
 }
 
-
+/* Course Structure */
 .course-structure {
     text-align: left !important;
     margin-bottom: 10px;
@@ -2178,7 +2178,7 @@ details{
     padding: 0 20px;
 }
 
-.course-structure ul{
+.section16 ul{
     list-style-type: square;
     margin: 20px;
 }

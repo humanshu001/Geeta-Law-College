@@ -18,10 +18,10 @@
 <header class="header1">
         <nav class="nav1">
             <ul>
-                <li><a href="#">ABOUT US</a></li>
+                <li><a href="about.php">ABOUT US</a></li>
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="#">GALLERY</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li><a href="faqs.php">FAQs</a></li>
             </ul>
         </nav>
         <div class="logo">
@@ -58,63 +58,63 @@
                     <li><a href="our_principal.php">Our Principal</a></li>
                     <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
                     <li><a href="industry_advisory.php">Industrial Advisory Board</a></li>
-                    <li><a href="#">Distinguished Professor</a></li>
-                    <li><a href="#">Honorary Professor</a></li>
-                    <li><a href="#">Faculty</a></li>
+                    <li><a href="distinguished_professor.php">Distinguished Professor</a></li>
+                    <li><a href="honorary_visiting_faculty.php">Honorary Professor</a></li>
+                    <li><a href="faculty.php">Faculty</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a href="#" onclick="return false">Courses <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">BA. LL.B (Hons.) 5 Years</a></li>
-                    <li><a href="#">BBA. LL.B (Hons.) 5 Years</a></li>
-                    <li><a href="#">LL.B (3 Years)</a></li>
-                    <li><a href="#">LL.M (2 Years)</a></li>
+                    <li><a href="ba_llb_5_years.php">BA. LL.B (Hons.) 5 Years</a></li>
+                    <li><a href="bba_llb_5_years.php">BBA. LL.B (Hons.) 5 Years</a></li>
+                    <li><a href="llb_3_years.php">LL.B (3 Years)</a></li>
+                    <li><a href="llm_2_years.php">LL.M (2 Years)</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a href="#" onclick="return false">Academics <i
                         class="arrow down toggle-menu"></i></a>
 
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">Course Structure</a></li>
+                    <li><a href="course_structure.php">Course Structure</a></li>
                     <li><a href="#">Fee Structure</a></li>
-                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="syllabus.php">Syllabus</a></li>
                     <li class="side-sub-dropdown"><a href="#" onclick="return false">Study Material <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="study-content">
-                            <li><a href="#">B.A.LL.B 1ST SEMESTER</a></li>
-                            <li><a href="#">B.A.LL.B 2ND SEMESTER</a></li>
-                            <li><a href="#">BBA.LL.B 1ST SEMESTER</a></li>
-                            <li><a href="#">BBA.LL.B 2ND SEMESTER</a></li>
+                            <li><a href="ba_llb_1.php">B.A.LL.B 1ST SEMESTER</a></li>
+                            <li><a href="ba_llb_2.php">B.A.LL.B 2ND SEMESTER</a></li>
+                            <li><a href="bba_llb_1.php">BBA.LL.B 1ST SEMESTER</a></li>
+                            <li><a href="bba_llb_2.php">BBA.LL.B 2ND SEMESTER</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Question Papers</a></li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Club <i
+                    <li><a href="question_papers.php">Question Papers</a></li>
+                    <li class="side-sub-dropdown"><a onclick="return false">Club <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="club-content">
-                            <li><a href="#">Moot Court Club</a></li>
-                            <li><a href="#">Internship & Placement Club</a></li>
-                            <li><a href="#">Social & Welfare Club</a></li>
+                            <li><a href="moot_court_club.php">Moot Court Club</a></li>
+                            <li><a href="internship_placement_club.php">Internship & Placement Club</a></li>
+                            <li><a href="social_welfare_club.php">Social & Welfare Club</a></li>
                         </ul>
                     </li>
                     <li class="side-sub-dropdown"><a href="#" onclick="return false">Research Centers <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="research-content">
-                            <li><a href="#">Centre for Criminal Justice Reforms</a></li>
-                            <li><a href="#">Centre For Arbitration and Mediation</a></li>
-                            <li><a href="#">Centre for Legal Aid Services</a></li>
-                            <li><a href="#">Centre for Research and Innovation</a></li>
-                            <li><a href="#">Centre for South Asian Legal Studies</a></li>
-                            <li><a href="#">Centre for Intellectual Property <br>Research and Advanced Studies</a>
+                            <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
+                            <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a></li>
+                            <li><a href="centre_legal_aid_services.php">Centre for Legal Aid Services</a></li>
+                            <li><a href="centre_research_innovation.php">Centre for Research and Innovation</a></li>
+                            <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a></li>
+                            <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property <br>Research and Advanced Studies</a>
                             </li>
                             <li><a href="#">Centre for Social Research</a></li>
-                            <li><a href="#">Centre for Environmental Studies</a></li>
-                            <li><a href="#">Centre for Career Guidance Studies</a></li>
-                            <li><a href="#">Centre for Leadership</a></li>
-                            <li><a href="#">Centre for Forensic Science</a></li>
+                            <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
+                            <li><a href="centre_career_guidance.php">Centre for Career Guidance Studies</a></li>
+                            <li><a href="centre_leadership.php">Centre for Leadership</a></li>
+                            <li><a href="centre_forensic_science.php">Centre for Forensic Science</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">List Of Journals</a></li>
+                    <li><a href="list_of_journals.php">List Of Journals</a></li>
                 </ul>
 
             </li>
@@ -193,58 +193,58 @@
                         <li><a href="our_principal.php">Our Principal</a></li>
                         <li><a href="academic_advisory.php">Academic Advisory Board</a></li>
                         <li><a href="industry_advisory.php">Industrial Advisory Board</a></li>
-                        <li><a href="#">Distinguished Professor</a></li>
-                        <li><a href="#">Honorary Professor</a></li>
-                        <li><a href="#">Faculty</a></li>
+                        <li><a href="distinguished_professor.php">Distinguished Professor</a></li>
+                        <li><a href="honorary_visiting_faculty.php">Honorary Professor</a></li>
+                        <li><a href="faculty.php">Faculty</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#">Courses <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">BA. LL.B (Hons.) 5 Years</a></li>
-                        <li><a href="#">BBA. LL.B (Hons.) 5 Years</a></li>
-                        <li><a href="#">LL.B (3 Years)</a></li>
-                        <li><a href="#">LL.M (2 Years)</a></li>
+                        <li><a href="ba_llb_5_years.php">BA. LL.B (Hons.) 5 Years</a></li>
+                        <li><a href="bba_llb_5_years.php">BBA. LL.B (Hons.) 5 Years</a></li>
+                        <li><a href="llb_3_years.php">LL.B (3 Years)</a></li>
+                        <li><a href="llm_2_years.php">LL.M (2 Years)</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#">Academics <i class="arrow down"></i></a>
 
                     <ul class="dropdown-content">
-                        <li><a href="#">Course Structure</a></li>
+                        <li><a href="course_structure.php">Course Structure</a></li>
                         <li><a href="#">Fee Structure</a></li>
-                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="syllabus.php">Syllabus</a></li>
                         <li class="sub-dropdown"><a href="#">Study Material <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="study-content">
-                                <li><a href="#">B.A.LL.B 1ST SEMESTER</a></li>
-                                <li><a href="#">B.A.LL.B 2ND SEMESTER</a></li>
-                                <li><a href="#">BBA.LL.B 1ST SEMESTER</a></li>
-                                <li><a href="#">BBA.LL.B 2ND SEMESTER</a></li>
+                                <li><a href="ba_llb_1.php">B.A.LL.B 1ST SEMESTER</a></li>
+                                <li><a href="ba_llb_2.php">B.A.LL.B 2ND SEMESTER</a></li>
+                                <li><a href="bba_llb_1.php">BBA.LL.B 1ST SEMESTER</a></li>
+                                <li><a href="bba_llb_2.php">BBA.LL.B 2ND SEMESTER</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Question Papers</a></li>
-                        <li class="sub-dropdown"><a href="#">Club <i class="arrow right"></i></a>
+                        <li><a href="question_papers.php">Question Papers</a></li>
+                        <li class="sub-dropdown"><a>Club <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="club-content">
-                                <li><a href="#">Moot Court Club</a></li>
-                                <li><a href="#">Internship & Placement Club</a></li>
-                                <li><a href="#">Social & Welfare Club</a></li>
+                                <li><a href="moot_court_club.php">Moot Court Club</a></li>
+                                <li><a href="internship_placement_club.php">Internship & Placement Club</a></li>
+                                <li><a href="social_welfare_club.php">Social & Welfare Club</a></li>
                             </ul>
                         </li>
                         <li class="sub-dropdown"><a href="#">Research Centers <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="research-content">
-                                <li><a href="#">Centre for Criminal Justice Reforms</a></li>
-                                <li><a href="#">Centre For Arbitration and Mediation</a></li>
-                                <li><a href="#">Centre for Legal Aid Services</a></li>
-                                <li><a href="#">Centre for Research and Innovation</a></li>
-                                <li><a href="#">Centre for South Asian Legal Studies</a></li>
-                                <li><a href="#">Centre for Intellectual Property <br>Research and Advanced Studies</a>
+                                <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
+                                <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a></li>
+                                <li><a href="centre_legal_aid_services.php">Centre for Legal Aid Services</a></li>
+                                <li><a href="centre_research_innovation.php">Centre for Research and Innovation</a></li>
+                                <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a></li>
+                                <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property <br>Research and Advanced Studies</a>
                                 </li>
                                 <li><a href="#">Centre for Social Research</a></li>
-                                <li><a href="#">Centre for Environmental Studies</a></li>
-                                <li><a href="#">Centre for Career Guidance Studies</a></li>
-                                <li><a href="#">Centre for Leadership</a></li>
-                                <li><a href="#">Centre for Forensic Science</a></li>
+                                <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
+                                <li><a href="centre_career_guidance.php">Centre for Career Guidance Studies</a></li>
+                                <li><a href="centre_leadership.php">Centre for Leadership</a></li>
+                                <li><a href="centre_forensic_science.php">Centre for Forensic Science</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">List Of Journals</a></li>
+                        <li><a href="list_of_journals.php">List Of Journals</a></li>
                     </ul>
 
                 </li>
