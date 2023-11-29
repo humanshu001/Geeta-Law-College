@@ -2203,3 +2203,16 @@ summary{
 }
 
 /* BA LLB Hons 5 Years */
+
+.section12 img{
+    width: 100%;
+}
+
+.section12 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section12 ul li{
+    padding: 2px;
+}
