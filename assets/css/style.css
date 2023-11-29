@@ -1867,7 +1867,7 @@ marquee {
     font-weight: bold;
     font-family: arial;
     font-size: 17px;
-    background-color: orangered;
+    background-color: var(--orange);
 }
 
 .ccgbtn button a {
@@ -1901,7 +1901,7 @@ marquee {
 button {
     height: 50px;
     width: 150px;
-    background-color: orangered;
+    background-color: var(--orange);
     border: none;
     border-radius: 5px;
     margin-top: 10px;
