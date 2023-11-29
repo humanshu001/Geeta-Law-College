@@ -1829,10 +1829,6 @@ marquee {
 .gl_images {
     display: flex;
     width: 100%;
-    /*justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;*/
 }
 
 .gl_images img {
@@ -1929,7 +1925,8 @@ button {
 
 button a {
     text-decoration: none;
-    color: black;
+    font-size: 20px;
+    color: white;
     display: block;
 }
 
@@ -2007,7 +2004,7 @@ a {
     width: 100%;
 }
 
-.khus {
+.list-new {
     padding-left: 50px;
     margin-left: 30px;
 }
@@ -2085,12 +2082,14 @@ td {
 
 
 /* moot court room */
-.moot-court-room img{
+
+.moot-court-room img {
     width: 80vw;
-    height: 80vh;;
+    height: 80vh;
 }
 
 /*conference room*/
+
 .conf {
     color: var(--orange);
     padding-left: 90px;
@@ -2115,9 +2114,7 @@ td {
 }
 
 /*mess*/
-/* .mess{
-    color: var(--orange);
-} */
+
 .orange-line {
     width: 50px;
     height: 1px;
@@ -2136,10 +2133,12 @@ td {
 .section8 img {
     width: 30%;
 }
+
 /* FAQs */
-.ans{
+.ans {
     font-size: 15px !important;
 }
+
 .align-left {
     text-align: left !important;
 }
@@ -2149,11 +2148,21 @@ td {
     padding: 0 3%;
 }
 
-/* Distinguished Professor */
+/* Faculty */
 
-.section9 .chairman-text img{
-    width: 80vw;
-    height: 80vh;
+.section11 .profs img{
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px){
+
+    .section11 .profs{
+        flex-direction: column;
+    }
+
+    .section11 .profs img{
+        width: 50%;
+    }
 }
 
 
