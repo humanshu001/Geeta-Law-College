@@ -2146,3 +2146,20 @@ td {
     list-style-type: square;
     padding: 0 3%;
 }
+
+/* Faculty */
+
+.section11 .profs img{
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px){
+
+    .section11 .profs{
+        flex-direction: column;
+    }
+
+    .section11 .profs img{
+        width: 50%;
+    }
+}
