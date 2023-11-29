@@ -2077,13 +2077,8 @@ td {
     height: 50px;
     width: 100px;
     background-color: orangered;
-<<<<<<< HEAD
     color:white;
 }
-=======
-    color: white;
-}
-
 
 /* moot court room */
 
@@ -2235,4 +2230,18 @@ summary{
 .section13 ul li{
     padding: 2px;
 }
->>>>>>> ffab3a18a9a87da1875d66eb2350241f1d82fd57
+
+/* LLB 3 Years */
+
+.section14 img{
+    width: 100%;
+}
+
+.section14 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section14 ul li{
+    padding: 2px;
+}
