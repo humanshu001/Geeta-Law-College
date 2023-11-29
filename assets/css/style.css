@@ -10,10 +10,10 @@
     src: url("../files/elephant/Elephant-Regular.woff") format("woff"),
         url("../files/elephant/Elephant\ Regular.ttf") format("truetype")
 }
-:root{
+
+:root {
     --orange: #a62005;
 }
-
 
 /* First Main Header */
 .header1 {
@@ -22,7 +22,7 @@
     justify-content: space-between;
     background-color: rgb(0, 0, 75);
     padding: 10px 0;
-    height: 7em; 
+    height: 7em;
     width: 100%;
 }
 
@@ -35,7 +35,6 @@
 .logo {
     width: 1fr;
 }
-
 
 /* Header Right Navigation */
 .header-right-nav {
@@ -117,9 +116,7 @@
     width: 100%;
 }
 
-
 /* Second Navigation */
-
 .nav2>ul {
     height: 60px;
     display: flex;
@@ -138,9 +135,7 @@
     margin: 10px;
 }
 
-
 /* Dropdown Menu */
-
 .dropdown-content {
     display: none;
     background-color: var(--orange);
@@ -153,7 +148,6 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
-
 }
 
 .dropdown-content li a {
@@ -178,11 +172,9 @@
     to {
         opacity: 1;
     }
-
 }
 
 /* Sub Dropdown Menu */
-
 .sub-dropdown-content {
     display: none;
     background-color: var(--orange);
@@ -222,9 +214,6 @@
     width: 18em;
 }
 
-
-
-
 /* Arrows for Dropdown*/
 .arrow {
     border: solid white;
@@ -256,9 +245,6 @@
     -webkit-transform: rotate(45deg);
     margin-bottom: 4px;
 }
-
-
-
 
 /* slide show */
 .section1 {
@@ -338,10 +324,7 @@
     }
 }
 
-
-
 /* Admission Button */
-
 .imgbox h1 {
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -364,8 +347,6 @@
     color: var(--orange);
     transition: 0.5s;
 }
-
-
 
 /* Why Choose Gil */
 .section2 {
@@ -414,7 +395,6 @@
 .whygil-box h5 {
     font-size: 22px;
     font-weight: 700;
-
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -429,9 +409,6 @@
 .item p {
     text-align: center;
 }
-
-
-
 
 /* News & Events */
 .section5 {
@@ -476,7 +453,6 @@
     margin-top: 100px;
     /* margin: 0 100px; */
 }
-
 
 .right-content {
     display: flex;
@@ -566,7 +542,6 @@ marquee {
     margin-bottom: 3px;
 }
 
-
 /* Our Recruiters */
 .section3 {
     width: 100%;
@@ -605,8 +580,6 @@ marquee {
     margin-bottom: 100px;
 }
 
-
-
 /* video section */
 .campus-tour {
     display: flex;
@@ -620,9 +593,11 @@ marquee {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.section4{
+
+.section4 {
     overflow: hidden;
 }
+
 .video {
     display: flex;
     flex-direction: column;
@@ -664,7 +639,6 @@ marquee {
 }
 
 .wave {
-
     width: 150px;
     height: 150px;
     animation: wave 1s linear infinite;
@@ -673,11 +647,9 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .wave2 {
-
     width: 150px;
     height: 150px;
     animation: wave2 1s linear infinite;
@@ -686,7 +658,6 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .playbutton {
@@ -694,7 +665,6 @@ marquee {
     display: flex;
     justify-content: center;
 }
-
 
 @keyframes wave {
     0% {
@@ -722,7 +692,6 @@ marquee {
     }
 }
 
-
 /* Centres at GIL */
 .section6 {
     width: 100%;
@@ -740,7 +709,6 @@ marquee {
     font-weight: 700;
     color: var(--orange);
     margin-bottom: 20px;
-
 }
 
 .centres {
@@ -773,8 +741,6 @@ marquee {
     margin-left: 0.5em;
 }
 
-
-
 @media screen and (max-width:1600px) {
     .centres {
         width: 100%;
@@ -787,7 +753,6 @@ marquee {
     /* .items {
         width: 40%;
     } */
-
 }
 
 @media screen and (max-width: 1300px) {
@@ -823,7 +788,6 @@ marquee {
     .hr3 {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width:1200px) {
@@ -929,7 +893,6 @@ marquee {
         font-size: 40px;
         margin-bottom: 0px;
     }
-
 }
 
 @media screen and (max-width:950px) {
@@ -1000,23 +963,26 @@ marquee {
 }
 
 @media screen and (max-width: 768px) {
-
     .slideshow {
         width: 100%;
         height: 100vh;
     }
+
     @keyframes xfade {
-        from{
-            background-size: 300%; 
+        from {
+            background-size: 300%;
         }
-        to{
+
+        to {
             background-size: 500%;
         }
     }
+
     .imgbox h1 {
         font-size: 30px;
     }
-    .imgbox img{
+
+    .imgbox img {
         height: 100vh;
     }
 
@@ -1050,7 +1016,6 @@ marquee {
 
 /* Media query for devices with width from 300px to 491px */
 @media screen and (min-width: 300px) and (max-width: 491px) {
-
     .header1 {
         width: 100%;
     }
@@ -1062,12 +1027,10 @@ marquee {
     button#toggle-show {
         width: 100%;
     }
-
 }
 
 /* Media query for devices with width from 492px to 767px */
 @media screen and (min-width: 492px) and (max-width: 767px) {
-
     .slideshow {
         width: 100%;
     }
@@ -1106,11 +1069,9 @@ marquee {
 
 /* Media query for devices with width from 768px to 949px */
 @media screen and (min-width: 768px) and (max-width: 949px) {
-
     .imgbox h1 {
         font-size: 35px
     }
-
 
     .whygil img {
         width: 60%;
@@ -1171,8 +1132,6 @@ marquee {
 
 /* Media query for devices with width greater than or equal to 950px */
 @media screen and (min-width: 950px) {
-
-   
 
     .whygil img {
         width: 70%;
@@ -1248,12 +1207,15 @@ marquee {
         height: 700px;
         align-items: center;
     }
-    .campus-tour .video{
+
+    .campus-tour .video {
         height: 400px;
     }
-    .video h1{
+
+    .video h1 {
         margin-top: 50px;
     }
+
     .line1,
     .line2,
     .line3 {
@@ -1316,7 +1278,7 @@ marquee {
     #nirf {
         display: none;
     }
-    
+
 }
 
 .footerhr {
@@ -1457,8 +1419,7 @@ marquee {
 }
 
 @media screen and (max-width: 1024px) {
-
-    .section6 .centre-heading{
+    .section6 .centre-heading {
         margin-right: 50px;
     }
 
@@ -1483,592 +1444,795 @@ marquee {
     .quick-links h1 {
         margin-top: 40px;
     }
-
 }
 
 @media screen and (max-width: 400px) {
-
     .video iframe {
         width: 20em;
         height: 15em;
     }
-
 }
 
 @media screen and (max-width:800px) {
-
-    .news-events{
+    .news-events {
         justify-content: center;
     }
 
-    .news-events-content{
+    .news-events-content {
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
     }
 
-    .centre-heading{
+    .centre-heading {
         justify-content: center;
     }
 
-    .centres{
+    .centres {
         margin-top: 30px;
     }
 
-    .hr1, .hr2{
+    .hr1,
+    .hr2 {
         display: none;
     }
 
-    .items{
+    .items {
         padding: 10px;
         font-size: 15px;
     }
-    
+
 }
 
-@media screen and (max-width: 617px){
-
-    .centres{
+@media screen and (max-width: 617px) {
+    .centres {
         flex-direction: column;
         align-items: center;
     }
 
-    .items{
+    .items {
         width: 50%;
     }
 
-    .whygil h1, .recruiters h1, .left-part h1, .centre-heading h1{
+    .whygil h1,
+    .recruiters h1,
+    .left-part h1,
+    .centre-heading h1 {
         font-size: 40px;
         text-align: center;
     }
 
-    .whygil{
+    .whygil {
         margin-top: 20px;
     }
 
-    .recruiters-img{
+    .recruiters-img {
         margin-top: 20px;
     }
 
-    .whygil hr{
+    .whygil hr {
         margin-top: 15px;
     }
 
-    .recruiters hr{
+    .recruiters hr {
         margin-top: 15px;
     }
-
 }
 
-@media screen and (max-width: 500px){
-
-    .items{
+@media screen and (max-width: 500px) {
+    .items {
         width: 80%;
     }
-
 }
 
-@media screen and (min-width: 1540px){
-
-    .whygil h1{
+@media screen and (min-width: 1540px) {
+    .whygil h1 {
         margin-top: 40px;
     }
-
 }
 
-@media screen and (min-width: 2200px){
-
-    .whygil h1{
+@media screen and (min-width: 2200px) {
+    .whygil h1 {
         margin-top: 100px;
     }
-
 }
 
-@media screen and (max-width: 1440px){
-
-    .video{
+@media screen and (max-width: 1440px) {
+    .video {
         padding: 50px;
     }
 
-    .video h1{
+    .video h1 {
         font-size: 40px;
     }
-
 }
 
-@media screen and (max-width: 515px){
+@media screen and (max-width: 515px) {
 
     /* *{
         overflow: auto;
     } */
-
-    #toggle-cross .line1, #toggle-cross .line2, #toggle-cross .line3{
+    #toggle-cross .line1,
+    #toggle-cross .line2,
+    #toggle-cross .line3 {
         width: 15px;
     }
 
-    .menu .line1, .menu .line2, .menu .line3{
+    .menu .line1,
+    .menu .line2,
+    .menu .line3 {
         width: 25px;
     }
 
-    .sidebar{
+    .sidebar {
         width: 100%;
     }
 
-    #nirf{
+    #nirf {
         display: none;
     }
 
-    .video h1{
+    .video h1 {
         font-size: 25px;
     }
 
-    .video p{
+    .video p {
         font-size: 15px;
     }
 
-    
-
-    .up-content{
+    .up-content {
         width: 200px;
         font-size: 20px;
     }
 
-    .down-content{
+    .down-content {
         width: 200px;
         font-size: 20px;
     }
 
-    .items{
+    .items {
         width: 80%;
     }
 
-    .hat_img img{
+    .hat_img img {
         margin-right: 0px;
         margin-left: 0px;
     }
 
-    .hat_img    {
+    .hat_img {
         margin-right: 5em;
         width: 4em;
     }
 
-    .video{
+    .video {
         padding: 20px;
         width: 85%;
     }
 
-    .video iframe{
+    .video iframe {
         width: 100%;
         height: 30%;
     }
-
 }
 
-
 /* Our Chairman Page */
-
-.chairman-text h2{
+.chairman-text h2 {
     text-align: right;
     margin-top: 50px;
     font-size: 20px;
 }
-.center-text{
+
+.center-text {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.chairman-text h1{
+
+.chairman-text h1 {
     margin-top: 50px;
     font-size: 30px;
     font-family: roboto;
 }
-.section7{
+
+.section7 {
     width: 70%;
     background-color: white;
     margin-top: 50px;
     margin: auto;
 }
-.faculty-img{
+
+.faculty-img {
     width: 150px;
     margin: auto;
 }
-.chairman{
+
+.chairman {
     margin: 100px 0;
 }
-.chairman-text{
+
+.chairman-text {
     margin: auto;
     width: 80%;
 }
-.chairman-text p{
+
+.chairman-text p {
     margin: 20px 0;
     text-align: justify;
     line-height: 30px;
     font-size: 18px;
 }
-.orange-line{
-    width: 160px;
-    height: 5px;
-    background-color: var(--orange);
-    margin: 2px 0; 
-    outline: none;
+
+.orange-line {
+    width: 160px !important;
+    height: 5px !important;
+    background-color: var(--orange) !important;
+    margin: 2px 0 !important;
+    outline: none !important;
 }
 
-.chairman-text img{
+.chairman-text img {
     margin: 30px 0;
 }
-@media screen and (max-width: 1200px){
-    .section7{
+
+@media screen and (max-width: 1200px) {
+    .section7 {
         width: 100%;
     }
-    .chairman-text p{
+
+    .chairman-text p {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 700px){
-    
-    .chairman-text{
+
+@media screen and (max-width: 700px) {
+
+    .chairman-text {
         width: 80%;
     }
-    .chairman{
+
+    .chairman {
         margin: 50px 0;
     }
 }
-@media screen and (max-width: 450px){
 
-    .chairman-text{
+@media screen and (max-width: 450px) {
+    .chairman-text {
         width: 90%;
     }
 }
 
 /* Our Director Page */
-
-.academic-advisory{
+.advisory {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin: 50px;
 }
-.advisory-profs{
+
+.profs {
     display: flex;
     align-items: center;
     border: 1px solid #00005b;
     padding: 20px;
 }
-.advisory-profs img{
+
+.profs img {
     width: 100px;
     border: 1px solid var(--orange);
     padding: 5px;
 }
-.content{
+
+.content {
     margin-left: 20px;
     font-family: roboto;
 }
 
-@media screen and (max-width: 900px){
-    .academic-advisory{
+@media screen and (max-width: 900px) {
+    .advisory {
         grid-template-columns: 1fr;
     }
-    .academic-advisory{
+
+    .advisory {
         margin: 20px;
     }
-    
 }
 
-/* ouestion paper page */
-.buttons{
-    display:flex;
+/* question paper page */
+.buttons {
+    display: flex;
     justify-content: space-between;
-    width:800px;
+    width: 800px;
     padding-top: 0px;
     padding-left: 300px;
 }
-.btngrp{
-    margin:3px;
+
+.btngrp {
+    margin: 3px;
 }
-.buttons p{
+
+.buttons p {
     text-align: center;
     margin-bottom: 0px;
     margin-right: 150px;
     margin-top: 0px;
-   
+
 }
-.buttons button a{
+
+.buttons button a {
     text-decoration: none;
-    color:white;
-    display:block;
-    height:40px;
+    color: white;
+    display: block;
+    height: 40px;
     padding-top: 15px;
- 
+
 }
-.buttons button{
-        height:50px;
-        width:250px;
-  background-color: orangered;
-border:none;
-font-weight: bold;
-font-size: 17px;
-margin-bottom: 13px;
+
+.buttons button {
+    height: 50px;
+    width: 250px;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 13px;
 }
-.orline{
+
+.orline {
     width: 100%;
     height: 1px;
     background-color: var(--orange);
-    margin: 2px 0; 
+    margin: 2px 0;
     outline: none;
 }
-.isl{
+
+.isl {
     list-style-type: square;
     line-height: 25px;
 }
-.isl a{
+
+.isl a {
     text-decoration: none;
 }
+
 /* international seminar page */
-.is_images{
-    height:500px;
-    width:80%;
+.is_images {
+    height: 500px;
+    width: 80%;
     padding-left: 100px;
 }
-.is1_images{
-    width:80%;
+
+.is1_images {
+    width: 80%;
     padding-left: 100px;
 }
-.or_line{
-     width: 800px;
-height: 1px;
-background-color: var(--orange);
-margin: 2px 0; 
-outline: none;
+
+.or_line {
+    width: 800px;
+    height: 1px;
+    background-color: var(--orange);
+    margin: 2px 0;
+    outline: none;
 }
+
 /*international seminar2 page*/
-.inaugural_session{
+.inaugural_session {
     padding-left: 500px;
-   display:inline;
+    display: inline;
 }
+
 /*guest lecture page */
-.gl_images{
-    display:flex;
-    width:100%;
-    /*justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;*/
-   }
-.gl_images img{
-    height:450px;
-    width:50%;
+.gl_images {
+    display: flex;
+    width: 100%;
 }
+
+.gl_images img {
+    height: 450px;
+    width: 50%;
+}
+
 /*dignitaries visited page */
-.dv_images img{
+.dv_images img {
     padding-left: 100px;
-    height:350px;
-    width:80%;
+    height: 350px;
+    width: 80%;
 }
+
 /*cultural activities page */
-.ca_images{
-    display:flex;
+.ca_images {
+    display: flex;
     justify-content: space-between;
 }
-.ca_images img{
-    height:400px;
-    width:40%;
+
+.ca_images img {
+    height: 400px;
+    width: 40%;
 }
+
 /* ccg page */
-.ccgbtn{
-    border-bottom:solid 1px #6e6e6e;
+.ccgbtn {
+    border-bottom: solid 1px #6e6e6e;
 }
-.ccgbtn button{
-  width:200px;
-  margin-top: 10px;
-  margin-left: 10px;
-  height:45px;
-  font-weight: bold;
-  font-family: arial;
-  font-size: 17px;
-  background-color: orangered;
+
+.ccgbtn button {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 45px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 17px;
+    background-color: orangered;
 }
-.ccgbtn button a{
+
+.ccgbtn button a {
     text-decoration: none;
-    color:white;
-    display:block;
+    color: white;
+    display: block;
 }
-.members{
+
+.members {
     padding-right: 1100px;
 }
+
 /* objectives page */
-.ccgp a{
+.ccgp a {
     text-decoration: none;
 }
+
 /*events page*/
 .e_images {
     display: flex;
     justify-content: center;
 }
-.ccg4{
+
+.ccg4 {
     margin-left: 300px;
 }
-/* internship */
-  
 
-button{
-    height:50px;
-    width:150px;
+/* internship */
+
+
+button {
+    height: 50px;
+    width: 150px;
     background-color: orangered;
-    border:none;
+    border: none;
     border-radius: 5px;
     margin-top: 10px;
 
-    
+
 }
-.orline{
+
+.orline {
     width: 1050px;
     height: 2px;
     background-color: var(--orange);
-    margin: 3px 0; 
+    margin: 3px 0;
     outline: none;
 }
-.eventhead{
-    color:darkslategray;
-    text-align: center;
-    
-}
 
-button a{
- text-decoration: none;
- color:black;
- display: block;
-}
-.aboutcentre{
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-.aboutcentre:hover{
-    color:blue;
-}
-.provide{
-    padding:50px;
+.eventhead {
     color: darkslategray;
-    
-}
-.shift{
-    padding-left: 30px;
-    width:100%;
-}
-.eventhe{
-    color:darkslategray;
-}
-.shifted{
-    padding-left: 5px;
-    width:100%;
-}
-.space{
-    padding-left:30px ;
-}
-.abspace{
-    padding-left:30px;
-    width:25%;
+    text-align: center;
+
 }
 
-.BBA{
-text-decoration: none;
+button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
 }
-.BBA:hover{
-   color: blueviolet;
+
+.aboutcentre {
+    text-decoration: none;
 }
-.img-mcc{
+
+a {
+    text-decoration: none;
+}
+
+.aboutcentre:hover {
+    color: blue;
+}
+
+.provide {
+    padding: 50px;
+    color: darkslategray;
+
+}
+
+.shift {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.eventhe {
+    color: darkslategray;
+}
+
+.shifted {
+    padding-left: 5px;
+    width: 100%;
+}
+
+.space {
+    padding-left: 30px;
+}
+
+.abspace {
+    padding-left: 30px;
+    width: 25%;
+}
+
+.BBA {
+    text-decoration: none;
+}
+
+.BBA:hover {
+    color: blueviolet;
+}
+
+.img-mcc {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
-.img-mcca{
+
+.img-mcca {
     margin: 10px;
 }
-.img-mccb{
+
+.img-mccb {
     margin: 10px;
 }
-.textalign{
+
+.textalign {
     text-align: center;
     margin: 10px;
 }
-.responsive{
+
+.responsive {
     width: 100%;
 }
 
-.khus{
-    padding-left:50px;
-    margin-left:30px;
+.list-new {
+    padding-left: 50px;
+    margin-left: 30px;
 }
-.video-margin{
+
+.video-margin {
     margin: 8px;
 }
-.textcenter{
+
+.textcenter {
     text-align: center;
 }
-.textcenter1{
-    margin: 0 auto ;
-    margin-top:20px;
+
+.textcenter1 {
+    margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
 }
 
 
 /* Courses Page */
 
-.table{
+.table {
     width: 100%;
     border-collapse: collapse;
     margin: 50px 0;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
 }
 
-table th, td{
+table th,
+td {
     border: 1px solid #6e6e6e;
     padding: 10px;
 }
 
-.content-title h5{
+.content-title h5 {
     font-size: 12.5px;
     font-weight: 700;
 }
 
-.section16 .content ul{
+.section16 .content ul {
     font-size: 15px;
 }
 
-.section16 .content{
+.section16 .content {
     margin-left: 0px;
 }
 
-.ul{
+.ul {
     margin: 0px;
     padding: 20px 50px;
 }
 
-.ul ul{
+.ul ul {
     list-style-type: square;
 }
 
-.separator{
+.separator {
     width: 100%;
     height: 1px;
     background-color: #6e6e6e;
     margin: 20px 0;
 }
-.campus{
-    height:50px;
-    width:100px;
+
+.campus {
+    height: 50px;
+    width: 100px;
     background-color: orangered;
+<<<<<<< HEAD
     color:white;
 }
+=======
+    color: white;
+}
+
+
+/* moot court room */
+
+.moot-court-room img {
+    width: 80vw;
+    height: 80vh;
+}
+
+/*conference room*/
+
+.conf {
+    color: var(--orange);
+    padding-left: 90px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.orange-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--orange);
+    margin-left: 90px;
+    outline: none;
+}
+
+.room {
+    padding: 50px;
+    margin: 30px;
+    width: 900px;
+    height: 500px;
+}
+
+/*mess*/
+
+.orange-line {
+    width: 50px;
+    height: 1px;
+    background-color: var(--orange);
+    margin-left: 90px;
+    outline: none;
+}
+
+.mess_img {
+    height: 80vh;
+    width: 80vw;
+}
+
+/* Industrial Advisory Board */
+
+.section8 img {
+    width: 30%;
+}
+
+/* FAQs */
+.ans {
+    font-size: 15px !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.section8 ul {
+    list-style-type: square;
+    padding: 0 3%;
+}
+
+/* Faculty */
+
+.section11 .profs img{
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px){
+
+    .section11 .profs{
+        flex-direction: column;
+    }
+
+    .section11 .profs img{
+        width: 50%;
+    }
+}
+
+
+.course-structure {
+    text-align: left !important;
+    margin-bottom: 10px;
+}
+details{
+    border: 1px solid var(--orange);
+    margin: 20px 0px;
+}
+
+.course-structure td{
+    padding: 0 20px;
+}
+
+.course-structure ul{
+    list-style-type: square;
+    margin: 20px;
+}
+
+.course-structure th{
+    font-size: 20px;
+}
+
+summary{
+    background-color: #6e6e6e;
+    color: white;
+    border: 4px solid;
+    padding: 10px;
+    
+}
+.course-struc{
+    margin-left: 10px;
+}
+.law-course{
+    margin-inline-start: 40px;
+}
+
+/* BA LLB Hons 5 Years */
+
+.section12 img{
+    width: 100%;
+}
+
+.section12 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section12 ul li{
+    padding: 2px;
+}
+
+/* BBA LLB Hons 5 Years */
+
+.section13 img{
+    width: 100%;
+}
+
+.section13 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section13 ul li{
+    padding: 2px;
+}
+>>>>>>> ffab3a18a9a87da1875d66eb2350241f1d82fd57

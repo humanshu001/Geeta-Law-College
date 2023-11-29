@@ -26,7 +26,7 @@
                     <li>Training Programs</li>
                     <li>Eleven Centers in the Campus</li>
                     <ul>
-                    <div class="khus">
+                    <div class="list-new">
                       <ol>
                         <li> Centre for Criminal Justice Reforms</li>
                         <li>Centre for Arbitration and Mediation</li>
