@@ -7,7 +7,7 @@
                 <h1>LL.B (3 years)</h1>
                 <hr class="lines">
                 <hr class="orange-line">
-                <img src="assets/images/Law-course.png" alt="">
+                <img src="assets/images/Law-course-2.png" alt="">
                 <h2 class="align-left">
                     About the Program:
                 </h2>

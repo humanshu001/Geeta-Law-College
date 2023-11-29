@@ -2245,3 +2245,18 @@ summary{
 .section14 ul li{
     padding: 2px;
 }
+
+/* LLM 2 Years */
+
+.section15 img{
+    width: 100%;
+}
+
+.section15 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section15 ul li{
+    padding: 2px;
+}
