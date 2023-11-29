@@ -1829,10 +1829,6 @@ marquee {
 .gl_images {
     display: flex;
     width: 100%;
-    /*justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;*/
 }
 
 .gl_images img {
