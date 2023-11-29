@@ -5,7 +5,7 @@
         <hr class="lines"><hr class="orange-line">
         <img src="assets/images/transport-page.png" width=100% alt="">
         <p>The students need to commute from different areas of the city to college for which the College is providing Air conditioned deluxe buses ply from Panipat, Karnal, Sonipat, Kurukshetra, Delhi and all nearby areas.</p>
-        <h1><b>ANNUAL TRANSPORT CHARGES</b></h1>
+        <h1><b>ANNUAL TRANSPORT CHARGES</b></h1><br>
 
         <table border="1" cellspacing="0">
             <tr>
