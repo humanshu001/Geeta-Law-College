@@ -4,7 +4,6 @@
     <h1>FAQs</h1>
         <hr class="lines"><hr class="orange-line">
         <br>
-        <ol type="1">
             <p> 1.Which stream should a candidate choose in 12th class to pursue a career in law?</p>
             <p class="ans">A candidate can pursue degree in Law after doing 12th class from any stream i.e. Humanities, Commerce, Medical, Non-Medical etc.</p>
             <p>2. Who can pursue LLB?</p>
@@ -25,7 +24,6 @@
             <p class="ans">There are numerous options available to a student after completing LLB/BA.LL.B/BBA.LL.B. A student can opt for Government jobs and appear for different exams. A student can go for Individual practice, Corporate, Law Firms, and Job in Banking Institutions etc.</p> 
             <p>10.What is to be done after Law Degree to practice in Court?</p>
             <p class="ans">The student has to enroll himself/herself with the State Bar Council and then clear the All India Bar Examination and get their License to practice.</p>
-        </ol>
 
 
         </div>
