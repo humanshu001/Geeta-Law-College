@@ -99,7 +99,7 @@
                     </li>
                     <li>
                     Academia
-                </li>
+                    </li>
                     <li>
                     Many other legal professions
                     </li>

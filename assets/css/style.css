@@ -2216,3 +2216,18 @@ summary{
 .section12 ul li{
     padding: 2px;
 }
+
+/* BBA LLB Hons 5 Years */
+
+.section13 img{
+    width: 100%;
+}
+
+.section13 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section13 ul li{
+    padding: 2px;
+}
