@@ -2172,8 +2172,9 @@ td {
 }
 details{
     border: 1px solid var(--orange);
-    padding: 20px;
+    margin: 20px 0px;
 }
+
 .course-structure td{
     padding: 0 20px;
 }
@@ -2200,3 +2201,5 @@ summary{
 .law-course{
     margin-inline-start: 40px;
 }
+
+/* BA LLB Hons 5 Years */
