@@ -21,7 +21,7 @@
                 Candidates must have completed their higher secondary education <b>(10+2)</b> from a recognised board or institution with a <b>minimum of 45%</b> aggregate <b>(not less than 42.75%, in the case of SC/ST)</b>
                 </p>
                 <h2 class="align-left">
-                    Duration of BA. LL.B (Hons.):
+                    Duration of BBA. LL.B (Hons.):
                 </h2>
                 <p>
                 The BBA LLB course duration is typically <b>five years</b>.
