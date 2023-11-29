@@ -2085,27 +2085,9 @@ td {
 
 
 /* moot court room */
-.moot {
-    color: var(--orange);
-    padding-left: 90px;
-    margin-top: 50px;
-    font-size: xx-large;
-    font-style: oblique;
-}
-
-.orange-line {
-    width: 100px;
-    height: 1px;
-    background-color: var(--orange);
-    margin-left: 90px;
-    outline: none;
-}
-
-.court {
-    padding: 50px;
-    margin: 50px;
-    width: 900px;
-    height: 500px;
+.moot-court-room img{
+    width: 80vw;
+    height: 80vh;;
 }
 
 /*conference room*/
@@ -2165,4 +2147,11 @@ td {
 .section8 ul {
     list-style-type: square;
     padding: 0 3%;
+}
+
+/* Distinguished Professor */
+
+.section9 .chairman-text img{
+    width: 80vw;
+    height: 80vh;
 }
