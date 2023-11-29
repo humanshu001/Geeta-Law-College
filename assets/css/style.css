@@ -2155,7 +2155,10 @@ td {
 .section8 img {
     width: 30%;
 }
-
+/* FAQs */
+.ans{
+    font-size: 15px !important;
+}
 .align-left {
     text-align: left !important;
 }

@@ -10,7 +10,7 @@
         <p><b><i>“Pursuit of Academics or Research Excellence”</i></b></p>
         <p>The Institute has magnificently designed separate hostels for boys and girls each with all modern facilities, for boarding and other recreational activities. The hostels have their own mess for Hostel students to provide good and hygienic food. The Hostel provides a well equipped Gym along with a Table Tennis Table for recreation. A/C or Non A/C facility is optional as per the requirement of the students. All campus accommodation has resident staffs that make sure that everything runs smoothly and look after the welfare of the students. With regard to security, it is world class, fitted with fire sprinklers/ fire alarms, smoke detectors. LAN and Wi-Fi internet connections are available in all areas, recognizing the need students for connectivity.</p>
             
-        <h1><b>Annual Hostel Charges</b></h1>
+        <h1><b>Annual Hostel Charges</b></h1><br>
         <table>
         <tr>
                 <td>AC-3 Sharing</td>
