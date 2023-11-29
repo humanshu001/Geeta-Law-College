@@ -2150,3 +2150,7 @@ table th, td{
     padding-left: 90px;
     font-style: oblique;
 }
+/* FAQs */
+.ans{
+    font-size: 15px !important;
+}
