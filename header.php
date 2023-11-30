@@ -48,7 +48,7 @@
             <li class="side-dropdown"><a href="#" onclick="return false">Our Faculty <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Our Promptors <i
+                    <li class="side-sub-dropdown"><a onclick="return false">Our Promptors <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content  hidden">
                             <li><a href="our_chairman.php">Our Chairman</a></li>
@@ -79,7 +79,7 @@
                     <li><a href="course_structure.php">Course Structure</a></li>
                     <li><a href="#">Fee Structure</a></li>
                     <li><a href="syllabus.php">Syllabus</a></li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Study Material <i
+                    <li class="side-sub-dropdown"><a onclick="return false">Study Material <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="study-content">
                             <li><a href="ba_llb_1.php">B.A.LL.B 1ST SEMESTER</a></li>
@@ -97,7 +97,7 @@
                             <li><a href="social_welfare_club.php">Social & Welfare Club</a></li>
                         </ul>
                     </li>
-                    <li class="side-sub-dropdown"><a href="#" onclick="return false">Research Centers <i
+                    <li class="side-sub-dropdown"><a onclick="return false">Research Centers <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="research-content">
                             <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
@@ -105,7 +105,7 @@
                             <li><a href="centre_legal_aid_services.php">Centre for Legal Aid Services</a></li>
                             <li><a href="centre_research_innovation.php">Centre for Research and Innovation</a></li>
                             <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a></li>
-                            <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property <br>Research and Advanced Studies</a>
+                            <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property Research and Advanced Studies</a>
                             </li>
                             <li><a href="#">Centre for Social Research</a></li>
                             <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
@@ -118,15 +118,14 @@
                 </ul>
 
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i
-                        class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">Seminars</a></li>
+                    <li><a href="seminars.php">Seminars</a></li>
                     <li><a href="#">Moot Courts</a></li>
-                    <li><a href="#">Guest Lectures</a></li>
-                    <li><a href="#">Dignitaries Visited</a></li>
-                    <li><a href="#">Cultural Activities</a></li>
-                    <li><a href="#">Alumini Cell</a></li>
+                    <li><a href="guest_lectures.php">Guest Lectures</a></li>
+                    <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
+                    <li><a href="cultural_activities.php">Cultural Activities</a></li>
+                    <li><a href="alumni_cell.php">Alumni Cell</a></li>
                     <li><a href="#">Class Events</a></li>
                 </ul>
             </li>
@@ -184,7 +183,7 @@
             <ul>
                 <li class="dropdown"><a href="#">Our Faculty <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li class="sub-dropdown"><a href="#">Our Promptors <i class="arrow right"></i></a>
+                        <li class="sub-dropdown"><a>Our Promptors <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="promptors-content">
                                 <li><a href="our_chairman.php">Our Chairman</a></li>
                                 <li><a href="our_vicechairman.php">Our Vice Chairman</a></li>
@@ -212,7 +211,7 @@
                         <li><a href="course_structure.php">Course Structure</a></li>
                         <li><a href="#">Fee Structure</a></li>
                         <li><a href="syllabus.php">Syllabus</a></li>
-                        <li class="sub-dropdown"><a href="#">Study Material <i class="arrow right"></i></a>
+                        <li class="sub-dropdown"><a>Study Material <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="study-content">
                                 <li><a href="ba_llb_1.php">B.A.LL.B 1ST SEMESTER</a></li>
                                 <li><a href="ba_llb_2.php">B.A.LL.B 2ND SEMESTER</a></li>
@@ -228,7 +227,7 @@
                                 <li><a href="social_welfare_club.php">Social & Welfare Club</a></li>
                             </ul>
                         </li>
-                        <li class="sub-dropdown"><a href="#">Research Centers <i class="arrow right"></i></a>
+                        <li class="sub-dropdown"><a>Research Centers <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="research-content">
                                 <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
                                 <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a></li>
@@ -250,12 +249,12 @@
                 </li>
                 <li class="dropdown"><a href="#">Campus Life <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Seminars</a></li>
+                        <li><a href="seminars.php">Seminars</a></li>
                         <li><a href="#">Moot Courts</a></li>
-                        <li><a href="#">Guest Lectures</a></li>
-                        <li><a href="#">Dignitaries Visited</a></li>
-                        <li><a href="#">Cultural Activities</a></li>
-                        <li><a href="#">Alumini Cell</a></li>
+                        <li><a href="guest_lectures.php">Guest Lectures</a></li>
+                        <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
+                        <li><a href="cultural_activities.php">Cultural Activities</a></li>
+                        <li><a href="alumni_cell.php">Alumni Cell</a></li>
                         <li><a href="#">Class Events</a></li>
                     </ul>
                 </li>

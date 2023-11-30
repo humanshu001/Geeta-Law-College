@@ -15,6 +15,10 @@
     --orange: #a62005;
 }
 
+a:hover{
+    cursor: pointer !important;
+}
+
 /* First Main Header */
 .header1 {
     display: flex;
@@ -1801,9 +1805,7 @@ marquee {
 
 /* international seminar page */
 .is_images {
-    height: 500px;
-    width: 80%;
-    padding-left: 100px;
+    width: 100%;
 }
 
 .is1_images {
@@ -1832,15 +1834,12 @@ marquee {
 }
 
 .gl_images img {
-    height: 450px;
     width: 50%;
 }
 
 /*dignitaries visited page */
 .dv_images img {
-    padding-left: 100px;
-    height: 350px;
-    width: 80%;
+    width: 100%;
 }
 
 /*cultural activities page */
@@ -1850,7 +1849,6 @@ marquee {
 }
 
 .ca_images img {
-    height: 400px;
     width: 40%;
 }
 
@@ -1910,7 +1908,7 @@ button {
 }
 
 .orline {
-    width: 1050px;
+    width: 100%;
     height: 2px;
     background-color: var(--orange);
     margin: 3px 0;
