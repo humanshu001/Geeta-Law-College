@@ -3,7 +3,7 @@ include ('header.php');
 
 ?>
 
-<section>
+<section class="section16">
     <div class="chairman">
         <div class="chairman-text">
             <h1>Course Structure</h1>
@@ -328,7 +328,6 @@ include ('header.php');
     <details>
         <summary>LLB(Three-Years)</summary>
         <h1>Semester I</h1>
-        <br>
         <ul class="course-struc">
             <li>Jurisprudence</li>
             <li>Constitutional Law -I</li>
@@ -337,7 +336,6 @@ include ('header.php');
             <li>Law of Contract-I</li>
         </ul>
         <h1>Semester II</h1>
-        <br>
         <ul class="course-struc">
             <li>Public International Law</li>
             <li>Constitutional Law -II</li>
@@ -346,7 +344,6 @@ include ('header.php');
             <li>Law of Contract-II</li>
         </ul>
         <h1>Semester III</h1>
-        <br>
         <ul class="course-struc">
             <li>Law of Torts (including Motor Vehicle Act 1988 & Consumer Protection Laws)</li>
             <li>Law of Evidence</li>
@@ -355,7 +352,6 @@ include ('header.php');
             <li>Compulsory Clinical Course: Drafting, Pleading and Conveyancing</li>
         </ul>
         <h1>Semester IV</h1>
-        <br>
         <ul class="course-struc">
             <li>Property Law</li>
             <li>Administrative Law and Right to Information</li>
@@ -364,7 +360,6 @@ include ('header.php');
             <li>Compulsory Clinical Course: Professional Ethics</li>
         </ul>
         <h1>Semester V</h1>
-        <br>
         <ul class="course-struc">
             <li>Civil Procedure Code & Limitation Act</li>
             <li>Labour & Industrial Law – I</li>
@@ -373,7 +368,6 @@ include ('header.php');
             <li>Compulsory Clinical Course: Mediation, Conciliation & Arbitration</li>
         </ul>
         <h1>Semester VI</h1>
-        <br>
         <ul class="course-struc">
             <li>Principals of Taxation Law</li>
             <li>Labour & Industrial Law – II</li>
@@ -399,13 +393,11 @@ include ('header.php');
         <ul class="law-course">
             <li>Legal Theory</li>
         </ul>
-        <br>
         Group C - Business Law
         <ul class="law-course">
             <li>Corporate Law & Management</li>
             <li>Law of Contractual Transactions</li>
         </ul>
-        <br>
         Group G- Constitution Law
         <ul class="law-course">
             <li>Mass Media and Constitutional Democracy</li>
@@ -416,20 +408,17 @@ include ('header.php');
         Core Papers
         <ul class="law-course">
             <li>Research Methodology</li>
-        </ul>           
-       <br>
+        </ul>
        Group C - Business Law
        <ul class="law-course">
             <li>Law of Banking & Negotiable Instruments</li>
             <li>Law of Industrial & Intellectual Property</li>
        </ul>
-       <br>
        Group G- Constitution Law
        <ul class="law-course">
             <li>Constitutionalism: Power of Judicial Review</li>
             <li>Federalism: Union & State Relations</li>
        </ul>
-       <br>
        <h1>Semester IV</h1>
        <br>
        Group C - Business Law
@@ -438,7 +427,6 @@ include ('header.php');
             <li>Legal Regulation of Economic Enterprises</li>
             <li>Dissertation</li>
        </ul>
-       <br>
        Group G- Constitution Law
        <ul class="law-course">
             <li>Human Rights: Constitution of India</li>

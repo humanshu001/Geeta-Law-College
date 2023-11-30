@@ -1,7 +1,8 @@
 <?php
 include("header.php");
 ?>
-<section class="moot-court-room">
+
+<section class="section46 moot-court-room">
     <div class="chairman">
         <div class="chairman-text">
             <h1>Moot Court Room</h1>
@@ -18,6 +19,7 @@ include("header.php");
         </div>
     </div>
 </section>
+
 <?php
 include("footer.php");
 ?>
