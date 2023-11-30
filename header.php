@@ -132,19 +132,19 @@
             <li class="side-dropdown"><a href="#" onclick="return false">Infrastructure <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">Class Rooms</a></li>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">Moot Court Room</a></li>
-                    <li><a href="#">IT Lab</a></li>
-                    <li><a href="#">Auditorium</a></li>
-                    <li><a href="#">Reception</a></li>
-                    <li><a href="#">Conference Room</a></li>
-                    <li><a href="#">Cafeteria</a></li>
-                    <li><a href="#">Gymnasium</a></li>
-                    <li><a href="#">Hostel</a></li>
-                    <li><a href="#">Mess</a></li>
-                    <li><a href="#">Transport</a></li>
-                    <li><a href="#">WiFi</a></li>
+                    <li><a href="class_rooms.php">Class Rooms</a></li>
+                    <li><a href="library.php">Library</a></li>
+                    <li><a href="moot_court_room.php">Moot Court Room</a></li>
+                    <li><a href="it_lab.php">IT Lab</a></li>
+                    <li><a href="auditorium.php">Auditorium</a></li>
+                    <li><a href="reception.php">Reception</a></li>
+                    <li><a href="conference_room.php">Conference Room</a></li>
+                    <li><a href="cafeteria.php">Cafeteria</a></li>
+                    <li><a href="gymnasium.php">Gymnasium</a></li>
+                    <li><a href="hostel.php">Hostel</a></li>
+                    <li><a href="mess.php">Mess</a></li>
+                    <li><a href="transport.php">Transport</a></li>
+                    <li><a href="wifi.php">WiFi</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a href="#" onclick="return false">Achievements <i
@@ -260,19 +260,19 @@
                 </li>
                 <li class="dropdown"><a href="#">Infrastructure <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Class Rooms</a></li>
-                        <li><a href="#">Library</a></li>
-                        <li><a href="#">Moot Court Room</a></li>
-                        <li><a href="#">IT Lab</a></li>
-                        <li><a href="#">Auditorium</a></li>
-                        <li><a href="#">Reception</a></li>
-                        <li><a href="#">Conference Room</a></li>
-                        <li><a href="#">Cafeteria</a></li>
-                        <li><a href="#">Gymnasium</a></li>
-                        <li><a href="#">Hostel</a></li>
-                        <li><a href="#">Mess</a></li>
-                        <li><a href="#">Transport</a></li>
-                        <li><a href="#">WiFi</a></li>
+                        <li><a href="class_rooms.php">Class Rooms</a></li>
+                        <li><a href="library.php">Library</a></li>
+                        <li><a href="moot_court_room.php">Moot Court Room</a></li>
+                        <li><a href="it_lab.php">IT Lab</a></li>
+                        <li><a href="auditorium.php">Auditorium</a></li>
+                        <li><a href="reception.php">Reception</a></li>
+                        <li><a href="conference_room.php">Conference Room</a></li>
+                        <li><a href="cafeteria.php">Cafeteria</a></li>
+                        <li><a href="gymnasium.php">Gymnasium</a></li>
+                        <li><a href="hostel.php">Hostel</a></li>
+                        <li><a href="mess.php">Mess</a></li>
+                        <li><a href="transport.php">Transport</a></li>
+                        <li><a href="wifi.php">WiFi</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#">Achievements <i class="arrow down"></i></a>
