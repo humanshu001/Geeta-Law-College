@@ -2245,3 +2245,33 @@ summary{
 .section14 ul li{
     padding: 2px;
 }
+
+/* contact */
+
+.contact{
+    display:flex;
+    padding-left: 10px;
+    width: 100%;
+
+}
+.cont_one{
+    height:500px;
+    width: 45%;
+    margin-left: 50px;
+}
+.cont_one form input{
+    border: 1px solid orangered;
+    width:100%;
+}
+.cont_one form textarea{
+    border: 1px solid orangered;
+    width:100%;
+}
+.cont_two{
+    height:500px;
+    width: 45%;
+    padding-left: 50px;
+}
+.cont_button{
+    
+}
