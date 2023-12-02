@@ -18,7 +18,7 @@
                 </noscript>
             </div>
 
-            <div class="contact">
+            <div class="contact-page">
 
                 <div class="cont_one">
                     <h3>Contact Us</h3>

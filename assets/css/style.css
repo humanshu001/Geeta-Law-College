@@ -2038,8 +2038,11 @@ a {
 
 .section16-1 table th,
 td {
-    border: 1px solid #6e6e6e;
     padding: 10px;
+}
+
+table th, td{
+    border: 1px solid #6e6e6e;
 }
 
 .content-title h5 {
@@ -2161,14 +2164,35 @@ td {
 .course-structure {
     text-align: left !important;
     margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
 }
+
 details{
     border: 1px solid var(--orange);
     margin: 20px 0px;
 }
 
-.course-structure td{
-    padding: 0 20px;
+.course-structure-tables{
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 375px){
+    .course-structure{
+        width: 100%;
+    }
+
+    .course-structure p{
+        font-size: 12px !important;
+    }
+
+    .section16 th, td{
+        padding: 0px;
+    }
+
+    .section16 ul{
+        margin-right: 0px !important;
+    }
 }
 
 .section16 ul{
@@ -2241,7 +2265,7 @@ summary{
 
 /* contact */
 
-.contact{
+.contact-page{
     display:flex;
     padding-left: 10px;
     width: 100%;
