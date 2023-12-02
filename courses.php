@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <section class="section16">
+    <section class="section16-1">
         <div class="left-container">
             <div class="chairman">
                 <div class="chairman-text">

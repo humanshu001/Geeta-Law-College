@@ -15,6 +15,10 @@
     --orange: #a62005;
 }
 
+a:hover{
+    cursor: pointer !important;
+}
+
 /* First Main Header */
 .header1 {
     display: flex;
@@ -1775,7 +1779,7 @@ marquee {
 .buttons button {
     height: 50px;
     width: 250px;
-    background-color: orangered;
+    background-color: var(--orange);
     border: none;
     font-weight: bold;
     font-size: 17px;
@@ -1801,9 +1805,7 @@ marquee {
 
 /* international seminar page */
 .is_images {
-    height: 500px;
-    width: 80%;
-    padding-left: 100px;
+    width: 100%;
 }
 
 .is1_images {
@@ -1829,22 +1831,15 @@ marquee {
 .gl_images {
     display: flex;
     width: 100%;
-    /*justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;*/
 }
 
 .gl_images img {
-    height: 450px;
     width: 50%;
 }
 
 /*dignitaries visited page */
 .dv_images img {
-    padding-left: 100px;
-    height: 350px;
-    width: 80%;
+    width: 100%;
 }
 
 /*cultural activities page */
@@ -1854,7 +1849,6 @@ marquee {
 }
 
 .ca_images img {
-    height: 400px;
     width: 40%;
 }
 
@@ -1871,7 +1865,7 @@ marquee {
     font-weight: bold;
     font-family: arial;
     font-size: 17px;
-    background-color: orangered;
+    background-color: var(--orange);
 }
 
 .ccgbtn button a {
@@ -1905,7 +1899,7 @@ marquee {
 button {
     height: 50px;
     width: 150px;
-    background-color: orangered;
+    background-color: var(--orange);
     border: none;
     border-radius: 5px;
     margin-top: 10px;
@@ -1914,7 +1908,7 @@ button {
 }
 
 .orline {
-    width: 1050px;
+    width: 100%;
     height: 2px;
     background-color: var(--orange);
     margin: 3px 0;
@@ -1929,7 +1923,8 @@ button {
 
 button a {
     text-decoration: none;
-    color: black;
+    font-size: 20px;
+    color: white;
     display: block;
 }
 
@@ -2003,13 +1998,8 @@ a {
     margin: 10px;
 }
 
-.responsive {
-    width: 100%;
-}
-
-.khus {
-    padding-left: 50px;
-    margin-left: 30px;
+.list-new {
+    padding-left: 20px;
 }
 
 .video-margin {
@@ -2029,22 +2019,25 @@ a {
 
 /* Courses Page */
 
-.table {
+.section16-1 .table {
     width: 100%;
     border-collapse: collapse;
     margin: 50px 0;
 }
 
-table {
+.section16-1 table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
 }
 
-table th,
+.section16-1 table th,
 td {
-    border: 1px solid #6e6e6e;
     padding: 10px;
+}
+
+table th, td{
+    border: 1px solid #6e6e6e;
 }
 
 .content-title h5 {
@@ -2052,15 +2045,15 @@ td {
     font-weight: 700;
 }
 
-.section16 .content ul {
+.section16-1 .content ul {
     font-size: 15px;
 }
 
-.section16 .content {
+.section16-1 .content {
     margin-left: 0px;
 }
 
-.ul {
+.section16-1 .ul {
     margin: 0px;
     padding: 20px 50px;
 }
@@ -2079,36 +2072,19 @@ td {
 .campus {
     height: 50px;
     width: 100px;
-    background-color: orangered;
-    color: white;
+    background-color: var(--orange);
+    color:white;
 }
-
 
 /* moot court room */
-.moot {
-    color: var(--orange);
-    padding-left: 90px;
-    margin-top: 50px;
-    font-size: xx-large;
-    font-style: oblique;
-}
 
-.orange-line {
-    width: 100px;
-    height: 1px;
-    background-color: var(--orange);
-    margin-left: 90px;
-    outline: none;
-}
-
-.court {
-    padding: 50px;
-    margin: 50px;
-    width: 900px;
-    height: 500px;
+.moot-court-room img {
+    width: 80vw;
+    height: 80vh;
 }
 
 /*conference room*/
+
 .conf {
     color: var(--orange);
     padding-left: 90px;
@@ -2133,9 +2109,7 @@ td {
 }
 
 /*mess*/
-/* .mess{
-    color: var(--orange);
-} */
+
 .orange-line {
     width: 50px;
     height: 1px;
@@ -2144,20 +2118,17 @@ td {
     outline: none;
 }
 
-.mess_img {
-    height: 80vh;
-    width: 80vw;
-}
-
 /* Industrial Advisory Board */
 
 .section8 img {
     width: 30%;
 }
+
 /* FAQs */
-.ans{
+.ans {
     font-size: 15px !important;
 }
+
 .align-left {
     text-align: left !important;
 }
@@ -2210,4 +2181,268 @@ td {
 .gallery-common:hover h3{
     display: block !important;
     background-color: white;
+}
+
+/* Faculty */
+
+.section11 .profs img{
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px){
+
+    .section11 .profs{
+        flex-direction: column;
+    }
+
+    .section11 .profs img{
+        width: 50%;
+    }
+}
+
+/* Course Structure */
+.course-structure {
+    text-align: left !important;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+details{
+    border: 1px solid var(--orange);
+    margin: 20px 0px;
+}
+
+.course-structure-tables{
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 375px){
+    .course-structure{
+        width: 100%;
+    }
+
+    .course-structure p{
+        font-size: 12px !important;
+    }
+
+    .section16 th, td{
+        padding: 0px;
+    }
+
+    .section16 ul{
+        margin-right: 0px !important;
+    }
+}
+
+.section16 ul{
+    list-style-type: square;
+    margin: 20px;
+}
+
+.course-structure th{
+    font-size: 20px;
+}
+
+summary{
+    background-color: #6e6e6e;
+    color: white;
+    border: 4px solid;
+    padding: 10px;
+    
+}
+.course-struc{
+    margin-left: 10px;
+}
+.law-course{
+    margin-inline-start: 40px;
+}
+
+/* BA LLB Hons 5 Years */
+
+.section12 img{
+    width: 100%;
+}
+
+.section12 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section12 ul li{
+    padding: 2px;
+}
+
+/* BBA LLB Hons 5 Years */
+
+.section13 img{
+    width: 100%;
+}
+
+.section13 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section13 ul li{
+    padding: 2px;
+}
+
+/* LLB 3 Years */
+
+.section14 img{
+    width: 100%;
+}
+
+.section14 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section14 ul li{
+    padding: 2px;
+}
+
+/* contact */
+
+.contact-page{
+    display:flex;
+    padding-left: 10px;
+    width: 100%;
+
+}
+.cont_one{
+    width: 80%;
+    margin-top: 20px;
+}
+.cont_one form input{
+    border: 1px solid var(--orange);
+    width:100%;
+}
+.cont_one form textarea{
+    border: 1px solid var(--orange);
+    width:100%;
+}
+.cont_two{
+    /* height:500px; */
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.section-contact .chairman{
+    margin: 20px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .cont_two{
+        display: none;
+    }
+
+    .cont_one{
+        width: 100%;
+    }
+}
+
+.sbmit-btn{
+    cursor: pointer;
+}
+
+/* LLM 2 Years */
+
+.section15 img{
+    width: 100%;
+}
+
+.section15 ul{
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section15 ul li{
+    padding: 2px;
+}
+
+/* Achievements Section */
+
+.section57 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section58 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section59 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section60 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section61 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section62 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+/* Practicum */
+
+.section63 .imgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 925px){
+    .section63 .imgs{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Placements and Internships */
+
+@media screen and (max-width: 550px) and (min-width: 360px){
+    .section64 img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .section64 img{
+        width: 100%;
+    }
+    .section64 table{
+        font-size: 12px;
+    }
+}
+
+/* Internship Fair */
+
+.section65 .imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px){
+
+    .section65 .imgs img{
+        width: 100%;
+    }
+
+    .section65 .imgs{
+        flex-direction: column;
+        align-items: center;
+    }
 }
