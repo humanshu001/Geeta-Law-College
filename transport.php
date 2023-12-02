@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <div class="chairman">
     <div class="chairman-text">
-    <h1>Auditorium</h1>
+    <h1>Transport</h1>
         <hr class="lines"><hr class="orange-line">
         <img src="assets/images/transport-page.png" width=100% alt="">
         <p>The students need to commute from different areas of the city to college for which the College is providing Air conditioned deluxe buses ply from Panipat, Karnal, Sonipat, Kurukshetra, Delhi and all nearby areas.</p>

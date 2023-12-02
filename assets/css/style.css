@@ -2166,3 +2166,48 @@ td {
     list-style-type: square;
     padding: 0 3%;
 }
+.align-center{
+    text-align: center !important;
+}
+.gallery-page-r2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-page-common{
+    width: 179px;
+    height: 140px;
+    /* background-position: fixed; */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.gallery-page-common:hover{
+    transform: scale(1.2);
+}
+.gallery-r2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-common{
+    width: 250px;
+    height: 150px;
+    background-position: fixed;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.gallery-common h3{
+    display: none !important; 
+}
+.gallery-common:hover{
+    transform: scale(1.2);
+}
+.gallery-common:hover h3{
+    display: block !important;
+    background-color: white;
+}
