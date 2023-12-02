@@ -1,5 +1,6 @@
 <?php include("header.php")?>
 
+<section class="section-contact">
 <div class="container">
     <div class="chairman">
         <div class="chairman-text">
@@ -28,26 +29,26 @@
                     <p>If you have any questions, feedback or other inquiries, contact us and a customer service
                         representative will gladly assist you.</p>
 
-                    <form>
+                    <form method="POST">
 
                         <input type="text" name="names" value="" size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required frmfd" aria-required="true"
-                            aria-invalid="false" placeholder="Name*" width=100%>
+                            aria-invalid="false" placeholder="Name*" width=100% required>
                         <br>
                         <input type="email" name="email" value="" size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email email frmfd"
-                            aria-required="true" aria-invalid="false" placeholder="Email Id*"><br>
+                            aria-required="true" aria-invalid="false" placeholder="Email Id*" required><br>
 
                         <input type="text" name="mobile-number" value="" size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required requiredField frmfd"
-                            aria-required="true" aria-invalid="false" placeholder="Mobile*"><br><br>
+                            aria-required="true" aria-invalid="false" placeholder="Mobile*" required><br><br>
 
                         <input type="text" name="location" value="" size="40"
                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required requiredField frmfd"
-                            aria-required="true" aria-invalid="false" placeholder="Location*"><br><br>
+                            aria-required="true" aria-invalid="false" placeholder="Location*" required><br><br>
 
                         <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea frmfd"
-                            aria-invalid="false" placeholder="Message"></textarea>
+                            aria-invalid="false" placeholder="Message" required></textarea>
 
                         <div class="controls"> <input type="hidden" name="_wpcf7_captcha_challenge_my-captcha"
                                 value="352474872"><img
@@ -106,5 +107,6 @@
         </div>
     </div>
 </div>
+</section>
 
 <?php include("footer.php")?>

@@ -2267,9 +2267,8 @@ summary{
 
 }
 .cont_one{
-    height:500px;
-    width: 45%;
-    margin-left: 50px;
+    width: 80%;
+    margin-top: 20px;
 }
 .cont_one form input{
     border: 1px solid var(--orange);
@@ -2280,9 +2279,29 @@ summary{
     width:100%;
 }
 .cont_two{
-    height:500px;
-    width: 45%;
-    padding-left: 50px;
+    /* height:500px; */
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.section-contact .chairman{
+    margin: 20px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .cont_two{
+        display: none;
+    }
+
+    .cont_one{
+        width: 100%;
+    }
+}
+
+.sbmit-btn{
+    cursor: pointer;
 }
 
 /* LLM 2 Years */

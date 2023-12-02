@@ -19,7 +19,7 @@
         <nav class="nav1">
             <ul>
                 <li><a href="about.php">ABOUT US</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
                 <li><a href="#">GALLERY</a></li>
                 <li><a href="faqs.php">FAQs</a></li>
             </ul>
