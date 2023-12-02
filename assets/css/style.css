@@ -1779,7 +1779,7 @@ marquee {
 .buttons button {
     height: 50px;
     width: 250px;
-    background-color: orangered;
+    background-color: var(--orange);
     border: none;
     font-weight: bold;
     font-size: 17px;
@@ -2024,19 +2024,19 @@ a {
 
 /* Courses Page */
 
-.table {
+.section16-1 .table {
     width: 100%;
     border-collapse: collapse;
     margin: 50px 0;
 }
 
-table {
+.section16-1 table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
 }
 
-table th,
+.section16-1 table th,
 td {
     border: 1px solid #6e6e6e;
     padding: 10px;
@@ -2047,15 +2047,15 @@ td {
     font-weight: 700;
 }
 
-.section16 .content ul {
+.section16-1 .content ul {
     font-size: 15px;
 }
 
-.section16 .content {
+.section16-1 .content {
     margin-left: 0px;
 }
 
-.ul {
+.section16-1 .ul {
     margin: 0px;
     padding: 20px 50px;
 }
@@ -2074,7 +2074,7 @@ td {
 .campus {
     height: 50px;
     width: 100px;
-    background-color: orangered;
+    background-color: var(--orange);
     color:white;
 }
 
@@ -2253,11 +2253,11 @@ summary{
     margin-left: 50px;
 }
 .cont_one form input{
-    border: 1px solid orangered;
+    border: 1px solid var(--orange);
     width:100%;
 }
 .cont_one form textarea{
-    border: 1px solid orangered;
+    border: 1px solid var(--orange);
     width:100%;
 }
 .cont_two{
