@@ -165,11 +165,11 @@
             <li class="side-dropdown"><a href="#" onclick="return false">Our Placement Program <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">Particum</a></li>
-                    <li><a href="#">Centre for Career Guidance</a></li>
-                    <li><a href="#">Alumni Cell</a></li>
-                    <li><a href="#">Placements & Internships</a></li>
-                    <li><a href="#">Internship-Fair</a></li>
+                    <li><a href="practicum.php">Prarticum</a></li>
+                    <li><a href="centre_career_guidance.php">Centre for Career Guidance</a></li>
+                    <li><a href="alumni_cell.php">Alumni Cell</a></li>
+                    <li><a href="placements_and_internships.php">Placements & Internships</a></li>
+                    <li><a href="internship_fair.php">Internship-Fair</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a href="#" onclick="return false">ERP <i class="arrow down toggle-menu"></i></a>
@@ -295,11 +295,11 @@
                 </li>
                 <li class="dropdown"><a href="#">Our Placement Program <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Particum</a></li>
-                        <li><a href="#">Centre for Career Guidance</a></li>
-                        <li><a href="#">Alumni Cell</a></li>
-                        <li><a href="#">Placements & Internships</a></li>
-                        <li><a href="#">Internship-Fair</a></li>
+                        <li><a href="practicum.php">Prarticum</a></li>
+                        <li><a href="centre_career_guidance.php">Centre for Career Guidance</a></li>
+                        <li><a href="alumni_cell.php">Alumni Cell</a></li>
+                        <li><a href="placements_and_internships.php">Placements & Internships</a></li>
+                        <li><a href="internship_fair.php">Internship-Fair</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#">ERP <i class="arrow down"></i></a>
