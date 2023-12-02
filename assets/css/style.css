@@ -2003,8 +2003,7 @@ a {
 }
 
 .list-new {
-    padding-left: 50px;
-    margin-left: 30px;
+    padding-left: 20px;
 }
 
 .video-margin {
@@ -2303,4 +2302,36 @@ summary{
 
 .section15 ul li{
     padding: 2px;
+}
+
+/* Achievements Section */
+
+.section57 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section58 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section59 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section60 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section61 ul{
+    list-style-type: square;
+    padding: 20px;
+}
+
+.section62 ul{
+    list-style-type: square;
+    padding: 20px;
 }

@@ -10,12 +10,12 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="preload" href="Elephant-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-   
+
 </head>
 
 <body>
 
-<header class="header1">
+    <header class="header1">
         <nav class="nav1">
             <ul>
                 <li><a href="about.php">ABOUT US</a></li>
@@ -100,12 +100,15 @@
                     <li class="side-sub-dropdown"><a onclick="return false">Research Centers <i
                                 class="arrow down toggle-sub-menu"></i></a>
                         <ul class="side-sub-dropdown-content hidden" id="research-content">
-                            <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
+                            <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a>
+                            </li>
                             <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a></li>
                             <li><a href="centre_legal_aid_services.php">Centre for Legal Aid Services</a></li>
                             <li><a href="centre_research_innovation.php">Centre for Research and Innovation</a></li>
-                            <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a></li>
-                            <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property Research and Advanced Studies</a>
+                            <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a>
+                            </li>
+                            <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for
+                                    Intellectual Property Research and Advanced Studies</a>
                             </li>
                             <li><a href="#">Centre for Social Research</a></li>
                             <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
@@ -118,7 +121,8 @@
                 </ul>
 
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i
+                        class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="seminars.php">Seminars</a></li>
                     <li><a href="#">Moot Courts</a></li>
@@ -150,12 +154,12 @@
             <li class="side-dropdown"><a href="#" onclick="return false">Achievements <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">Rankings</a></li>
-                    <li><a href="#">Moot Court Winner</a></li>
-                    <li><a href="#">Other Competition-winning Positions</a></li>
-                    <li><a href="#">Other Programs and Achievements</a></li>
-                    <li><a href="#">Collaborations</a></li>
-                    <li><a href="#">New Beginnings In The Campus</a></li>
+                    <li><a href="rankings.php">Rankings</a></li>
+                    <li><a href="moot_court_winner.php">Moot Court Winner</a></li>
+                    <li><a href="other_competition_positions.php">Other Competition-winning Positions</a></li>
+                    <li><a href="other_programs_and_achievements.php">Other Programs and Achievements</a></li>
+                    <li><a href="collaborations.php">Collaborations</a></li>
+                    <li><a href="new_beginnings.php">New Beginnings In The Campus</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a href="#" onclick="return false">Our Placement Program <i
@@ -229,12 +233,16 @@
                         </li>
                         <li class="sub-dropdown"><a>Research Centers <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="research-content">
-                                <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice Reforms</a></li>
-                                <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a></li>
+                                <li><a href="centre_criminal_justice_reforms.php">Centre for Criminal Justice
+                                        Reforms</a></li>
+                                <li><a href="centre_arbitration_mediation.php">Centre For Arbitration and Mediation</a>
+                                </li>
                                 <li><a href="centre_legal_aid_services.php">Centre for Legal Aid Services</a></li>
                                 <li><a href="centre_research_innovation.php">Centre for Research and Innovation</a></li>
-                                <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal Studies</a></li>
-                                <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for Intellectual Property <br>Research and Advanced Studies</a>
+                                <li><a href="centre_south_asian_legal_studies.php">Centre for South Asian Legal
+                                        Studies</a></li>
+                                <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for
+                                        Intellectual Property <br>Research and Advanced Studies</a>
                                 </li>
                                 <li><a href="#">Centre for Social Research</a></li>
                                 <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
@@ -277,12 +285,12 @@
                 </li>
                 <li class="dropdown"><a href="#">Achievements <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">Rankings</a></li>
-                        <li><a href="#">Moot Court Winner</a></li>
-                        <li><a href="#">Other Competition-winning Positions</a></li>
-                        <li><a href="#">Other Programs and Achievements</a></li>
-                        <li><a href="#">Collaborations</a></li>
-                        <li><a href="#">New Beginnings In The Campus</a></li>
+                        <li><a href="rankings.php">Rankings</a></li>
+                        <li><a href="moot_court_winner.php">Moot Court Winner</a></li>
+                        <li><a href="other_competition_positions.php">Other Competition-winning Positions</a></li>
+                        <li><a href="other_programs_and_achievements.php">Other Programs and Achievements</a></li>
+                        <li><a href="collaborations.php">Collaborations</a></li>
+                        <li><a href="new_beginnings.php">New Beginnings In The Campus</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#">Our Placement Program <i class="arrow down"></i></a>
