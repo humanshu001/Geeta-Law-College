@@ -3,7 +3,7 @@
 <section class="section55">
     <div class="chairman">
         <div class="chairman-text">
-            <h1>Auditorium</h1>
+            <h1>Transport</h1>
             <hr class="lines">
             <hr class="orange-line">
             <img src="assets/images/transport-page.png" width=100% alt="">

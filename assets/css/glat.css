@@ -1,0 +1,245 @@
+.main-slide{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.slide-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    animation: slide 0.5s ease-in-out;
+}
+.impdate{
+    margin-top: 40px;
+    text-align: center;
+}
+.impdate th{
+    padding: 10px;
+    color: white;
+    background-color: #a62005;
+}
+.glat-table{
+    margin-top: 40px;
+    text-align: center;
+}
+.glat-table th{
+    padding: 10px;
+    color: white;
+    background-color: #a62005;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.center-about{
+    text-align: center;
+}
+.slide-item-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.slide-item-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.slide-img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-img img{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.slide-content{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.slide-content p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+.section-glat{
+    margin-top: 40px;
+}
+.h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-glat h1{
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .main-slide{
+        width: 90%;
+        margin: auto;
+    }
+    .slide-1{
+        padding: 50px 0;
+    }
+    .slide-item-1{
+        flex-direction: column;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .slide-item-2{
+        flex-direction: column;
+        padding: 0px;
+        margin: auto;
+    }
+    .slide-img{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide-content p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .slide-content h4{
+        text-align: center;
+    }
+}
+.alumni-registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.alumni-registration form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.alumni-registration form .left-form {
+    width: 40%;
+    margin: 0 auto;
+}
+.alumni-registration form .right-form {
+    width: 40%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.alumni-registration form .left-form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .left-form input[type="radio"] {
+    width: 10%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .left-form input[type="date"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .left-form select {
+    width: 104%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .left-form label {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .left-form input[type="file"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .right-form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .right-form select {
+    width: 104%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .right-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.alumni-registration form .right-form input[type="submit"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5a623;
+    color: #fff;
+    border: 1px solid #f5a623;
+    cursor: pointer;
+}
+.alumni-registration form .right-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #f5a623;
+    border: 1px solid #f5a623;
+}
+.left-form input[type="file"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+@media screen and (max-width:678px) {
+    .alumni-registration form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .alumni-registration form .left-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .alumni-registration form .right-form {
+        width: 100%;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+}

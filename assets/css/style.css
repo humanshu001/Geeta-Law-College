@@ -86,6 +86,7 @@ a:hover{
 
 #toggle-show {
     display: none;
+    width: 50px!important;
 }
 
 .line1,
@@ -1903,8 +1904,6 @@ button {
     border: none;
     border-radius: 5px;
     margin-top: 10px;
-
-
 }
 
 .orline {
