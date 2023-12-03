@@ -32,7 +32,7 @@
             <a class="admission" href="https://www.geetalawcollege.in/admissions/">ADMISSION</a>
             <a id="nirf" href="assets/files/NIRF-2021-SUBMITTEDGEETA-INSTITUTE-OF-LAW20210209-.pdf">NIRF</a>
             <div class="menu">
-                <button id="toggle-show">
+                <button style="width:50px;" id="toggle-show">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>

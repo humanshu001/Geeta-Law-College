@@ -85,7 +85,7 @@
                         <h3>
                             Downloads
                         </h3>
-                        <a href="https://www.geetalawcollege.in/glat-home/">GLAT Link</a><br>
+                        <a href="glat.php">GLAT Link</a><br>
                         <a href="https://www.geetalawcollege.in/wp-content/uploads/2020/01/Academics-Calender.xlsx">Academic
                             Calendar</a><br>
                         <a href="https://www.geetalawcollege.in/wp-content/uploads/2023/03/Anti-Ragging-Cell.pdf">Anti
