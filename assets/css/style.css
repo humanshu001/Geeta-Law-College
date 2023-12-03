@@ -2180,7 +2180,9 @@ table th, td{
 }
 .gallery-common:hover h3{
     display: block !important;
-    background-color: white;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    text-align: center;
 }
 
 /* Faculty */
@@ -2444,5 +2446,14 @@ summary{
     .section65 .imgs{
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* Words from Dignitaries */
+
+@media screen and (max-width:768px){
+    .word-from-dignitaries h2{
+        font-size: 15px;
+        margin-top: 0px;
     }
 }

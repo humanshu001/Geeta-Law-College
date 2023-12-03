@@ -97,7 +97,7 @@
                             Gallery
                         </h3>
                         <a href="https://www.geetalawcollege.in/infrastructure/class-rooms/">Infrastructure</a><br>
-                        <a href="https://www.geetalawcollege.in/words-from-dignitaries/">Testimonials</a><br>
+                        <a href="words_from_dignitaries.php">Testimonials</a><br>
                         <a href="https://youtu.be/nD9-3Bf7hXY">Videos</a><br>
                     </div>
 

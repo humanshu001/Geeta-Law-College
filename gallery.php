@@ -1,6 +1,5 @@
 <?php include("header.php");?>
 
-
 <div class="chairman">
     <div class="chairman-text">
         <p class="align-center"><b>2023</b></p>
@@ -10,12 +9,12 @@
                 <h3>Aarambh 2023(Convocation)</h3>
             </div></a>
             <a href="gallery2023-2.php">
-            <div class="gallery-c2 gallery-common"style="background-image: url('assets/images/2023-2.jpg');">
+            <div class="gallery-c2 gallery-common" style="background-image: url('assets/images/2023-2.jpg');">
                 <h3>Parampara(Farewell Party)</h3>
             </div>
             </a>
             <a href="gallery2023-3.php"><div class="gallery-common" style="background-image: url('assets/images/2023-3.jpg');">
-                <h3>Prashikshan (Iinternship Fair)</h3>
+                <h3>Prashikshan (Internship Fair)</h3>
             </div></a>
             <a href="gallery2023-4.php"><div class="gallery-common" style="background-image: url('assets/images/2023-4.jpg');">
                 <h3>Trip to Auli</h3>
@@ -97,7 +96,7 @@
             </a>
         <a href="gallery2019-4.php">
             <div class="gallery-common" style="background-image: url('assets/images/2019-4.jpeg');">
-            <h3>S P Bansel Guest Lecture Series by Dr. Sushi Chauhan Assistant Professor Department of law, KUJ on 6 Sept. 2019</h3> </div>
+            <h3>S P Bansal Guest Lecture Series by Dr. Sushi Chauhan Assistant Professor Department of law, KUJ on 6 Sept. 2019</h3> </div>
             </a>
             <a href="gallery2019-5.php">
             <div class="gallery-common" style="background-image: url('assets/images/2019-5.jpg');">

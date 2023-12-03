@@ -20,15 +20,16 @@
             <ul>
                 <li><a href="about.php">ABOUT US</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
-                <li><a href="#">GALLERY</a></li>
+                <li><a href="gallery.php">GALLERY</a></li>
                 <li><a href="faqs.php">FAQs</a></li>
             </ul>
+        </nav>
         </nav>
         <div class="logo">
             <img src="assets/images/logo-gil.png" alt="">
         </div>
         <div class="header-right-nav">
-            <a class="admission" href="#">ADMISSION</a>
+            <a class="admission" href="https://www.geetalawcollege.in/admissions/">ADMISSION</a>
             <a id="nirf" href="assets/files/NIRF-2021-SUBMITTEDGEETA-INSTITUTE-OF-LAW20210209-.pdf">NIRF</a>
             <div class="menu">
                 <button id="toggle-show">
