@@ -46,7 +46,7 @@
             <div class="line2"></div>
         </div>
         <ul>
-            <li class="side-dropdown"><a href="#" onclick="return false">Our Faculty <i
+            <li class="side-dropdown"><a onclick="return false">Our Faculty <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li class="side-sub-dropdown"><a onclick="return false">Our Promptors <i
@@ -64,7 +64,7 @@
                     <li><a href="faculty.php">Faculty</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Courses <i
+            <li class="side-dropdown"><a onclick="return false">Courses <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="ba_llb_5_years.php">BA. LL.B (Hons.) 5 Years</a></li>
@@ -73,7 +73,7 @@
                     <li><a href="llm_2_years.php">LL.M (2 Years)</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Academics <i
+            <li class="side-dropdown"><a onclick="return false">Academics <i
                         class="arrow down toggle-menu"></i></a>
 
                 <ul class="side-dropdown-content hidden">
@@ -122,11 +122,11 @@
                 </ul>
 
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Campus Life <i
+            <li class="side-dropdown"><a onclick="return false">Campus Life <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="seminars.php">Seminars</a></li>
-                    <li><a href="#">Moot Courts</a></li>
+                    <li><a href="moot_courts.php">Moot Courts</a></li>
                     <li><a href="guest_lectures.php">Guest Lectures</a></li>
                     <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
                     <li><a href="cultural_activities.php">Cultural Activities</a></li>
@@ -134,7 +134,7 @@
                     <li><a href="#">Class Events</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Infrastructure <i
+            <li class="side-dropdown"><a onclick="return false">Infrastructure <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="class_rooms.php">Class Rooms</a></li>
@@ -152,7 +152,7 @@
                     <li><a href="wifi.php">WiFi</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Achievements <i
+            <li class="side-dropdown"><a onclick="return false">Achievements <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="rankings.php">Rankings</a></li>
@@ -163,7 +163,7 @@
                     <li><a href="new_beginnings.php">New Beginnings In The Campus</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">Our Placement Program <i
+            <li class="side-dropdown"><a onclick="return false">Our Placement Program <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
                     <li><a href="practicum.php">Prarticum</a></li>
@@ -173,12 +173,12 @@
                     <li><a href="internship_fair.php">Internship-Fair</a></li>
                 </ul>
             </li>
-            <li class="side-dropdown"><a href="#" onclick="return false">ERP <i class="arrow down toggle-menu"></i></a>
+            <li class="side-dropdown"><a onclick="return false">ERP <i class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="#">ERP Login</a></li>
-                    <li><a href="#">Student Login</a></li>
+                    <li><a href="http://erp.geetaedu.com/default.aspx">ERP Login</a></li>
+                    <li><a href="http://student.geetaedu.com/">Student Login</a></li>
                     <li><a href="#">Parent Login</a></li>
-                    <li><a href="#">Faculty Login</a></li>
+                    <li><a href="http://emp.geetaedu.com/">Faculty Login</a></li>
                 </ul>
             </li>
         </ul>
@@ -186,7 +186,7 @@
     <header class="header2">
         <nav class="nav2">
             <ul>
-                <li class="dropdown"><a href="#">Our Faculty <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Our Faculty <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li class="sub-dropdown"><a>Our Promptors <i class="arrow right"></i></a>
                             <ul class="sub-dropdown-content" id="promptors-content">
@@ -202,7 +202,7 @@
                         <li><a href="faculty.php">Faculty</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Courses <i class="arrow down"></i></a>
+                <li class="dropdown"><a href="courses.php">Courses <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="ba_llb_5_years.php">BA. LL.B (Hons.) 5 Years</a></li>
                         <li><a href="bba_llb_5_years.php">BBA. LL.B (Hons.) 5 Years</a></li>
@@ -210,7 +210,7 @@
                         <li><a href="llm_2_years.php">LL.M (2 Years)</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Academics <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Academics <i class="arrow down"></i></a>
 
                     <ul class="dropdown-content">
                         <li><a href="course_structure.php">Course Structure</a></li>
@@ -256,10 +256,10 @@
                     </ul>
 
                 </li>
-                <li class="dropdown"><a href="#">Campus Life <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Campus Life <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="seminars.php">Seminars</a></li>
-                        <li><a href="#">Moot Courts</a></li>
+                        <li><a href="moot_courts.php">Moot Courts</a></li>
                         <li><a href="guest_lectures.php">Guest Lectures</a></li>
                         <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
                         <li><a href="cultural_activities.php">Cultural Activities</a></li>
