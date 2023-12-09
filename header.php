@@ -111,7 +111,6 @@
                             <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for
                                     Intellectual Property Research and Advanced Studies</a>
                             </li>
-                            <li><a href="#">Centre for Social Research</a></li>
                             <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
                             <li><a href="centre_career_guidance.php">Centre for Career Guidance Studies</a></li>
                             <li><a href="centre_leadership.php">Centre for Leadership</a></li>
@@ -131,7 +130,6 @@
                     <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
                     <li><a href="cultural_activities.php">Cultural Activities</a></li>
                     <li><a href="alumni_cell.php">Alumni Cell</a></li>
-                    <li><a href="#">Class Events</a></li>
                 </ul>
             </li>
             <li class="side-dropdown"><a onclick="return false">Infrastructure <i
@@ -166,7 +164,7 @@
             <li class="side-dropdown"><a onclick="return false">Our Placement Program <i
                         class="arrow down toggle-menu"></i></a>
                 <ul class="side-dropdown-content hidden">
-                    <li><a href="practicum.php">Prarticum</a></li>
+                    <li><a href="practicum.php">Practicum</a></li>
                     <li><a href="centre_career_guidance.php">Centre for Career Guidance</a></li>
                     <li><a href="alumni_cell.php">Alumni Cell</a></li>
                     <li><a href="placements_and_internships.php">Placements & Internships</a></li>
@@ -177,7 +175,6 @@
                 <ul class="side-dropdown-content hidden">
                     <li><a href="http://erp.geetaedu.com/default.aspx">ERP Login</a></li>
                     <li><a href="http://student.geetaedu.com/">Student Login</a></li>
-                    <li><a href="#">Parent Login</a></li>
                     <li><a href="http://emp.geetaedu.com/">Faculty Login</a></li>
                 </ul>
             </li>
@@ -245,7 +242,6 @@
                                 <li><a href="centre_intellectual_property_research_advanced_studies.php">Centre for
                                         Intellectual Property <br>Research and Advanced Studies</a>
                                 </li>
-                                <li><a href="#">Centre for Social Research</a></li>
                                 <li><a href="centre_environmental_studies.php">Centre for Environmental Studies</a></li>
                                 <li><a href="centre_career_guidance.php">Centre for Career Guidance Studies</a></li>
                                 <li><a href="centre_leadership.php">Centre for Leadership</a></li>
@@ -264,10 +260,9 @@
                         <li><a href="dignitaries_visited.php">Dignitaries Visited</a></li>
                         <li><a href="cultural_activities.php">Cultural Activities</a></li>
                         <li><a href="alumni_cell.php">Alumni Cell</a></li>
-                        <li><a href="#">Class Events</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Infrastructure <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Infrastructure <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="class_rooms.php">Class Rooms</a></li>
                         <li><a href="library.php">Library</a></li>
@@ -284,7 +279,7 @@
                         <li><a href="wifi.php">WiFi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Achievements <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Achievements <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
                         <li><a href="rankings.php">Rankings</a></li>
                         <li><a href="moot_court_winner.php">Moot Court Winner</a></li>
@@ -294,21 +289,20 @@
                         <li><a href="new_beginnings.php">New Beginnings In The Campus</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">Our Placement Program <i class="arrow down"></i></a>
+                <li class="dropdown"><a>Our Placement Program <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="practicum.php">Prarticum</a></li>
+                        <li><a href="practicum.php">Practicum</a></li>
                         <li><a href="centre_career_guidance.php">Centre for Career Guidance</a></li>
                         <li><a href="alumni_cell.php">Alumni Cell</a></li>
                         <li><a href="placements_and_internships.php">Placements & Internships</a></li>
                         <li><a href="internship_fair.php">Internship-Fair</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#">ERP <i class="arrow down"></i></a>
+                <li class="dropdown"><a>ERP <i class="arrow down"></i></a>
                     <ul class="dropdown-content">
-                        <li><a href="#">ERP Login</a></li>
-                        <li><a href="#">Student Login</a></li>
-                        <li><a href="#">Parent Login</a></li>
-                        <li><a href="#">Faculty Login</a></li>
+                        <li><a href="http://erp.geetaedu.com/default.aspx">ERP Login</a></li>
+                        <li><a href="http://student.geetaedu.com/">Student Login</a></li>
+                        <li><a href="http://emp.geetaedu.com/">Faculty Login</a></li>
                     </ul>
                 </li>
 
