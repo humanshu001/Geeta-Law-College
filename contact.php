@@ -51,10 +51,7 @@
                             aria-invalid="false" placeholder="Message" required></textarea>
 
                         <div class="controls"> <input type="hidden" name="_wpcf7_captcha_challenge_my-captcha"
-                                value="352474872"><img
-                                class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-my-captcha" width="72"
-                                height="24" alt="captcha"
-                                src="https://www.geetalawcollege.in/wp-content/uploads/wpcf7_captcha/352474872.png">
+                                value="352474872"><img alt="captcha" src="assets/images/captcha.png">
                             <span class="wpcf7-form-control-wrap my-captcha"><input type="text" name="my-captcha"
                                     value="" size="40" class="wpcf7-form-control wpcf7-captchar" autocomplete="off"
                                     aria-invalid="false"></span> </div>
