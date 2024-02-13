@@ -7,14 +7,14 @@
                 <h1>Moot Court Club</h1>
                 <hr class="lines">
                 <hr class="orange-line">
-                <img height="550px" width="1000px" src="assets/images/mcc.jpg" class="responsive">
+                <img width=100% src="assets/images/mcc.jpg">
                 <p>
                     Geeta Institute of law has a vibrant and active mooting culture. The Moot Court Society (MCS) of
                     Geeta Institute of Law is a student run club under the guidance of faculty co-coordinators, which
                     seeks to channelize the students on the mooting path. The Moot Court Committee at the GIL embodies
                     the indefeasible passion for mooting that the Institute cherishes as its own. Apart from maintaining
                     a strong internal mooting structure, the Committee has been entrusted with the responsibility of
-                    hosting annually, the Geeta Institute of Law <a class="BBA" href="moot-court-compition.php" target="_blank">Moot Court Competition</a> . To this extent, the Committee is proud to find
+                    hosting annually, the Geeta Institute of Law <a class="BBA" href="moot_courts.php" target="_blank">Moot Court Competition</a> . To this extent, the Committee is proud to find
                     itself entrusted with the organization of a very prestigious and well respected moot court
                     competition on Competition Law and Advocacy. The Gil Moot Court Society is a team of dedicated
                     students who continuously work towards achieving new heights in the mooting arena.
@@ -28,7 +28,7 @@
                     Competition.
                 </p>
                 <p>
-                    The <a class="BBA" href="moot-court-society.php" target="_blank">Moot Court Society </a> doesn’t
+                    The <a class="BBA" href="moot_court_society.php" target="_blank">Moot Court Society </a> doesn’t
                     just limit itself to Intra-College activities it also indulges itself in various Inter-College
                     competitions. GIL students have taken part in many various Moot Court Competitions hosted by many
                     law colleges. Teams of GIL have a long tradition of excellence in appellate advocacy and their

@@ -18,7 +18,7 @@
                     political and philosophical topics.</p>
                 <hr class="orline">
                 <div class="gl_images">
-                    <img src="assets/images/gl1.jpg" alt="" height="200px">
+                    <img src="assets/images/gl1.jpg" alt="">
                     <img src="assets/images/gli1_1.jpg" alt="">
                 </div>
                 <ul class="isl">
